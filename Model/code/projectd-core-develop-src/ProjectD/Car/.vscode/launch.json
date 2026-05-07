@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/itserv/OneDrive - Tshwane University of Technology/Desktop/code/FAMILIAR-TEST/projectd-core-develop/projectd-core-develop/src/ProjectD/Car",
+      "program": "c:/Users/itserv/OneDrive - Tshwane University of Technology/Desktop/code/FAMILIAR-TEST/projectd-core-develop/projectd-core-develop/src/ProjectD/Car/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

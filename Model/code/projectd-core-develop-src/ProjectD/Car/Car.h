@@ -1,0 +1,274 @@
+#pragma once
+
+#include "Car/CarCommon.h"
+#include "Car/CarControls.h"
+#include "Car/ICarControlsProvider.h"
+#include "Car/ISuspension.h"
+#include "Car/CarSenseiData.h"
+#include "Core/Event.h"
+#include "TyreThermalModel.h"
+#include "Tyre.h"
+
+namespace D {
+
+enum class TorqueModeEX
+{
+	original = 0x0,
+	reactionTorques = 0x1,
+	driveTorques = 0x2,
+};
+
+enum class TeleportMode
+{
+	Start = 0, 
+	Nearest = 1, 
+	Random = 2
+};
+
+struct CarCollisionBounds
+{
+	vec3f min;
+	vec3f max;
+	float length = 0;
+	float width = 0;
+	float lengthFront = 0;
+	float lengthRear = 0;
+};
+
+struct OnStepCompleteEvent
+{
+	Car* car = nullptr;
+	double physicsTime = 0;
+};
+
+struct OnCollisionEvent
+{
+	IRigidBody* body = nullptr;
+	vec3f worldPos;
+	vec3f relPos;
+	float relativeSpeed = 0;
+	unsigned long colliderGroup = 0;
+};
+
+struct Car : public virtual IObject
+{
+	Car(Track* track);
+	~Car();
+
+	// init
+	bool init(const std::wstring& modelName);
+	bool hotstart(bool hotstarttag,
+    double newrootVelocity, double newengineRPM, int newcurrentGear,
+    double newoutShaftLvelocity, double newoutShaftRvelocity, float newbraketemp,
+    const std::array<float,3>& newVelocity,
+    const std::array<float,4>& newslipAngleRAD, const std::array<float,4>& newslipRatio,
+    const std::array<float,4>& newangularVelocity, const std::array<float,4>& newangularVelocityold, const std::array<float,4>& newMz,
+    const std::array<float,4>& newdirtyLevel, const std::array<float,4>& newcoretemp,
+    const std::array<float,4>& newpatchtemp);
+	void applyWorldMatricesFast(const mat44f& bodyMatrix, const mat44f& fuelTankMatrix, const mat44f& hubFLMatrix, 	const mat44f& strutBodyFLMatrix,
+    const mat44f& strutBodyFRMatrix, const mat44f& hubFRMatrix, const mat44f& axleOrRearMatrix,
+	bool zeroVel /*= false*/, bool reattach);
+	void initCarData();
+	void initProbes();
+	void initLookAhead();
+	void loadColliderBlob();
+	void initColliderMesh(ITriMeshPtr mesh, const mat44f& bodyMatrix);
+
+	// step
+	void reset();
+	void stepPreCacheValues(float dt);
+	void step(float dt);
+	void updateAirPressure();
+	void updateBodyMass();
+	float calcBodyMass();
+	void stepThermalObjects(float dt);
+	void stepComponents(float dt);
+	void updateTrackLocator(float dt);
+	void updateLookAhead();
+	void postStep(float dt);
+	void updateCarState();
+	void updateSensei();
+
+	// collision
+	void onCollisionCallback(void* userData0, void* shape0, void* userData1, void* shape1, const vec3f& normal, const vec3f& pos, float depth);
+
+	// controls
+	void pollControls(float dt);
+	void sendFF(float dt);
+	float getSteerFF(float dt);
+
+	// utils
+	void forcePosition(const vec3f& pos, float offsetY = 0);
+	void forceRotation(const vec3f& heading);
+	void newforcePosition(const vec3f& pos, bool zeroVel /*=true*/, bool reattach /*=true*/,const vec3f& hubflpos,const vec3f& hubfrpos,const vec3f& axlepos);
+	void newforceRotation(float heading /*yaw*/, float roll, float pitch, bool zeroVel /*=true*/, bool reattach /*=true*/);
+	void forcePose(const vec3f& pos, float heading, float roll, float pitch, bool zeroVel /*=true*/, bool reattach /*=true*/);
+	void setForwardSpeed(float speedKmh);
+	void teleport(const mat44f& m);
+	void teleportToPits(int pitId);
+	void teleportToSpline(float distanceNorm);
+	void teleportByMode(TeleportMode mode);
+	float getBaseCarHeight() const;
+	vec3f getGroundWindVector() const;
+	float getPointGroundHeight(const vec3f& pt) const;
+	mat44f getGraphicsOffsetMatrix() const;
+	bool isSleeping() const;
+	float getEngineRpm() const;
+	float getOptimalBrake() const;
+	float getDrivingTyresSlip() const;
+	float getBetaRad() const;
+
+	Event<OnStepCompleteEvent> evOnStepComplete;
+	Event<OnCollisionEvent> evOnCollisionEvent;
+	
+	// CONFIG
+
+	int physicsGUID = 0;
+
+	std::wstring unixName;
+	std::wstring configName;
+	std::wstring carDataPath;
+	std::wstring screenName;
+
+	SuspensionType suspensionTypeF = SuspensionType(0);
+	SuspensionType suspensionTypeR = SuspensionType(0);
+	TorqueModeEX torqueModeEx = TorqueModeEX(0);
+	float axleTorqueReaction = 1.0f;
+
+	CarCollisionBounds bounds;
+	vec3f bodyInertia;
+	vec3f explicitInertia;
+	vec3f fuelTankPos;
+	vec3f ridePickupPoint[2];
+
+	float mass = 0;
+	float ballastKG = 0;
+	float fuelKG = 0.74f;
+	float requestedFuel = 30.0f;
+	double maxFuel = 30.0f;
+	double fuelConsumptionK = 0;
+
+	// aero
+	float slipStreamEffectGain = 1.0f;
+
+	// force feedback
+	float ffMult = 0.003f;
+	float steerLock = 200.0f;
+	float steerRatio = 12.0f;
+	float steerLinearRatio = 0.003f;
+	float steerAssist = 1.0f;
+	float userFFGain = 1.0f;
+
+	vec3f graphicsOffset;
+	float graphicsPitchRotation = 0;
+
+	// RUNTIME
+
+	Simulator* sim = nullptr;
+	Track* track = nullptr;
+	void* tag = nullptr;
+
+	std::shared_ptr<ICarAudioRenderer> audioRenderer;
+	std::shared_ptr<ICarControlsProvider> controlsProvider;
+
+	IRigidBodyPtr body;
+	IRigidBodyPtr fuelTankBody;
+	IRigidBodyPtr rigidAxle;
+	IJointPtr fuelTankJoint;
+	ITriMeshPtr collider;
+
+	std::vector<std::unique_ptr<SuspensionBase>> suspensionsImpl;
+	std::vector<ISuspension*> suspensions;
+	std::vector<std::unique_ptr<HeaveSpring>> heaveSprings;
+	std::vector<std::unique_ptr<AntirollBar>> antirollBars;
+	std::vector<std::unique_ptr<Tyre>> tyres;
+	std::vector<std::wstring> tyreCompounds;
+
+	std::unique_ptr<CarColliderManager> colliderManager;
+	std::unique_ptr<SlipStream> slipStream;
+	std::unique_ptr<AeroMap> aeroMap;
+	std::unique_ptr<ThermalObject> water;
+	std::unique_ptr<BrakeSystem> brakeSystem;
+	std::unique_ptr<SteeringSystem> steeringSystem;
+	std::unique_ptr<Drivetrain> drivetrain;
+	std::unique_ptr<GearChanger> gearChanger;
+	std::unique_ptr<AutoClutch> autoClutch;
+	std::unique_ptr<AutoBlip> autoBlip;
+	std::unique_ptr<AutoShifter> autoShift;
+	std::unique_ptr<ScoringSystem> scoring;
+	std::unique_ptr<SetupManager> setup;
+	std::unique_ptr<CarState> state;
+	std::unique_ptr<IAvatar> avatar;
+
+	CarControls controls;
+	float finalSteerAngleSignal = 0;
+	bool lockControls = false;
+	bool externalControls = true;
+	int smoothSteer = false;
+	float smoothSteerTarget = 0;
+	float smoothSteerValue = 0;
+	float smoothSteerSpeed = 10;
+
+	mat44f pitPosition;
+	Speed speed;
+	vec3f lastVelocity;
+	vec3f accG;
+	double fuel = 0;
+
+	double lastBodyMassUpdateTime = 0;
+	double lastCollisionTime = 0;
+	double lastCollisionWithCarTime = 0;
+	float damageZoneLevel[5] = {};
+	float oldDamageZoneLevel[5] = {};
+	bool collisionFlag = false;
+	bool oldCollisionFlag = false;
+	bool outOfTrackFlag = false;
+
+	int framesToSleep = 50;
+	int sleepingFrames = 0;
+	
+	// force feedback
+	float vibrationPhase = 0;
+	float slipVibrationPhase = 0;
+	float mzCurrent = 0;
+	float flatSpotPhase = 0;
+	float lastSteerPosition = 0;
+	float lastPureMZFF = 0;
+	float lastGyroFF = 0;
+	float lastFF = 0;
+	float lastDamp = 0;
+	VibrationDef lastVibr;
+
+	// obstacle probes
+	std::vector<ray3f> probes;
+	std::vector<float> probeHits;
+
+	// track curvature
+	std::vector<float> lookAhead;
+	int lookAheadCount = 5;
+	float lookAheadStep = 10.0;
+
+	float lastTrackPointTimestamp = 0;
+	int nearestTrackPointId = 0;
+	int oldTrackPointId = 0;
+	int splinePointId = 0;
+
+	float trackLocation = 0;
+	float oldTrackLocation = 0;
+	float bodyVsTrack = 0;
+	float kappa = 0;
+	int bestPoint = 0;
+	float velocityVsTrack = 0;
+	vec3f worldSplinePosition;
+
+	int teleportOnCollision = false;
+	int teleportOnBadLocation = false;
+	int teleportMode = (int)TeleportMode::Start;
+
+	std::vector<CarSenseiData> senseiPoints;
+	float senseiResolution = 0.1f;
+	bool senseiLapStarted = false;
+	bool senseiEnabled = false;
+};
+
+}
