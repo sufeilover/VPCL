@@ -1,0 +1,1966 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 84,
+      "sha256": "9ede0d7e8820e6199d1eeb029e228e2460997c70ae617df92517e199fcd30900",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ScoringSystem.cpp",
+      "bytes": 44479,
+      "sha256": "e421c4710b9bd9d39567535241d56c43f9a4ff8cf0151475b887ab349d1f898c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ITyreModel.h",
+      "bytes": 648,
+      "sha256": "4e83d9bbeecaa54e2d6e62bfc88e85c3f62ade560119f2a87b7dd0df21f006cc",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ITorqueGenerator.h",
+      "bytes": 164,
+      "sha256": "c9e7d3158ee063b49122509a31377a811a00e537b2c287e84265f3ccfde5d086",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ISuspension.h",
+      "bytes": 1341,
+      "sha256": "cc66aa01a37b9b0490fb7a12664b5b517f5e54450169893fb5297803d955e965",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ICoastGenerator.h",
+      "bytes": 162,
+      "sha256": "eaf2ac3b3765569722f340ce3f5f2d5212fa11400b404758faa038c4f6cac3e3",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ICarControlsProvider.h",
+      "bytes": 631,
+      "sha256": "b5a9ad6176b067a9517d9ad31bebf55558ffe0440133baaadf7fb05a20d446c3",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ICarAudioRenderer.h",
+      "bytes": 159,
+      "sha256": "d90e0d0306df90ac05961e7ece06d19caaeb8ac32221449775920df284e8ec7d",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ScoringSystem.h",
+      "bytes": 4208,
+      "sha256": "7717889e1f2762a5bf9c1983ad08fa5e68be705dde91a686302122204c0a1649",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/HeaveSpring.h",
+      "bytes": 717,
+      "sha256": "3d3051f23455ca5ab7dc540ed22bbc5f5545a0828550ed7ee2871e78a37e8697",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/GearChanger.h",
+      "bytes": 342,
+      "sha256": "b8265c8c1cf45ae4fc52b40618ac5eb1528ed05c6ff5e0cdb2c3c30a9f902cae",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/GearChanger.cpp",
+      "bytes": 752,
+      "sha256": "360f7a768017c4e44d3e9425e61387da859f82a03e10bd89e42b450408d5517c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Engine.h",
+      "bytes": 2740,
+      "sha256": "0818a148de7bf6cbe278ce4a3e969ce8da87ab94a8ebf7852e8df1ab27a2b213",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Engine.cpp",
+      "bytes": 10636,
+      "sha256": "fb771b140c471af9c7fca00dc22b8aab12f4778c490aaf7248d2cdeb143c5a02",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/DynamicController.h",
+      "bytes": 1759,
+      "sha256": "26d235202c95ad6365bc14907a7d3073b27d7c15de3ca6aa3fde2d8cdaeb129a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/DynamicController.cpp",
+      "bytes": 8297,
+      "sha256": "302c97672ff0c1d9bd70804f231153dc0c46c9c4e13b4190cc05448ad2efb153",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Drivetrain.h",
+      "bytes": 3443,
+      "sha256": "558380e0ab40d81e78c0585a38f4e117e6e8279f4af73bc56e17189765c5b281",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/HeaveSpring.cpp",
+      "bytes": 4902,
+      "sha256": "5b2f4a514ff8c8747038ae95ea7e71159991c4ac4201a440b36eaefd439548df",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SetupManager.cpp",
+      "bytes": 13090,
+      "sha256": "eb6c286d435771addd24fe605f9438673bad5872ba6b6fb75f90eae50a954665",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SetupManager.h",
+      "bytes": 2583,
+      "sha256": "962c2f42076906403ff085c53c599ce5fcf1fe47a423f99a4fecb4a3e088fff6",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SteeringSystem.cpp",
+      "bytes": 447,
+      "sha256": "ab0cba30f1872cfe898f6e722cfe342c54f26fab674b7e1bd9b9d214eee470c7",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreCompound.h",
+      "bytes": 2084,
+      "sha256": "a820ff35e1b6af276653e6d79398e7b634fa5fc0bf7afa9daf1088ca6e3b9237",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Tyre.h",
+      "bytes": 2941,
+      "sha256": "c649d1779a5c5c15f984d0c7fc4caa22625f77a78066d0441d23ccaa1d87659b",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Tyre.cpp",
+      "bytes": 31911,
+      "sha256": "8f5dab3d238c1978dd3dc4b1484440f647d7041156ab8a6439ecbe3f0b5597da",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Turbo.h",
+      "bytes": 550,
+      "sha256": "fefedef600604f6664cc91908cc9afc9c3af79109d6f942e5e117542245e5f26",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Turbo.cpp",
+      "bytes": 1020,
+      "sha256": "746e9bfa97c0beff734c43af30395895fa64062d23faa6721753338abf3637ac",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ThermalObject.h",
+      "bytes": 431,
+      "sha256": "5bcce75435156442f027083b0b133b6864b34ebd0adc61c988a72bd300af71a4",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ThermalObject.cpp",
+      "bytes": 602,
+      "sha256": "edb2d8f32326f1c8894ea2aae1b76ed86e04d44c264c6cc29df7a9c7e0c3df35",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionStrut.h",
+      "bytes": 1791,
+      "sha256": "c93fb5036b587e83d14be3d380bd3f4fadbe07a314680a40b844fd6db0cc021a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionStrut.cpp",
+      "bytes": 12900,
+      "sha256": "cf79862d5c9bfd2ebad7d34e83d5450fe7e33a126f5d701393fb52f9f7ac053a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionML.h",
+      "bytes": 1599,
+      "sha256": "925aef1caafd75878222b68bf148bd523af35021e2052369ee5c46c08091d764",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionML.cpp",
+      "bytes": 6631,
+      "sha256": "36bbcafcbcad92185ef34ba16d7089eadd4dbb9cee14d5cfea828cf2370c196c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionDW.h",
+      "bytes": 2186,
+      "sha256": "074dff8747c9f0ecfcbc405429b91349390925a234eb0d62222097378c9bce16",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionDW.cpp",
+      "bytes": 11409,
+      "sha256": "1ae87c725aadb647acf063b9c02dc7cd7e052427647a6dc208bc579e50595080",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionBase.h",
+      "bytes": 1180,
+      "sha256": "bda678cfed09e4681be4da7f435d529a2ccee4988b8f2f847ad25ce0ef7ceef4",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionAxle.h",
+      "bytes": 1593,
+      "sha256": "b4d4fbd71aa7374fc644404b35cde0de120022249dfe0293bf2cefc8f83e01f0",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionAxle.cpp",
+      "bytes": 7939,
+      "sha256": "a952578140dccb8fea8edef6df90ebf4d9d4dfd223d78df124d476c6fd7d75f1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SteeringSystem.h",
+      "bytes": 519,
+      "sha256": "e0ffa4296f1d51ec79972dc72542fb5479821c4a2b8030d88d3dde79c062af0c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Drivetrain.cpp",
+      "bytes": 20909,
+      "sha256": "afe5028ead4fa2b1b4a515f5f2889e5aca5c0fd81853ebc0312c11cdb6e3f7e7",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreForces.cpp",
+      "bytes": 9665,
+      "sha256": "d3acaa7c8b27046a74adaef29f7d90315ccbd667cf2d40268e93a6a658f7fbbb",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Damper.h",
+      "bytes": 368,
+      "sha256": "ec9c245b21d9b517d8f75508b65df03e25917f15f483231af6345c7442815740",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarState.h",
+      "bytes": 7009,
+      "sha256": "bd98f314c62f1ca83ee2ade242c4e1c635e810c1d744042d799d78e2af500b0a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AntirollBar.h",
+      "bytes": 410,
+      "sha256": "fcd8bbc9329a738880d1b59b8bbb31bf7e5b11e0f6ec3064465563f87d28df8e",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AntirollBar.cpp",
+      "bytes": 1164,
+      "sha256": "11df3eb5f9c1e78213a0c632841216b865cbef0f46291cb38b9f4bfb40f23106",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AeroMap.h",
+      "bytes": 757,
+      "sha256": "0e6eff12dc83f59e2d657d7066cc842be04ddaafcfa63ee3fe310690dce0127f",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AeroMap.cpp",
+      "bytes": 3490,
+      "sha256": "ad7462137adb5bb48e921af1300d5ca9c92969267daeac4390893357ab96e0aa",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/ProjectD.vcxproj.user",
+      "bytes": 225,
+      "sha256": "a0c24e8908c9bcc5eb33cdd38762da3a86013fe87f0c681238ec4bcee56d15e1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/ProjectD.vcxproj.filters",
+      "bytes": 15343,
+      "sha256": "0f323cd94da37fd0af736950e32e0ef22db6bcf299cf7ffaa65b079b7d9ce040",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/ProjectD.vcxproj",
+      "bytes": 21132,
+      "sha256": "591367e5d9a4c501856139d7fde8c0ffe0b1213cc374d30d56eb7d580aa50b0a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoBlip.cpp",
+      "bytes": 1828,
+      "sha256": "bdb4068ef18aa1ae097ecdae99be0428b8a3b284ec257b575df59da9a734d4b5",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/development.props",
+      "bytes": 1829,
+      "sha256": "78ada8c88f096888a207453c1b8f789950bbbf8efacb02cd10f4cbdd876090af",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/debug.props",
+      "bytes": 2032,
+      "sha256": "4888f87a10c6f9b866f8a7a4bc49c044194636879c85e87b544fcdbc87989249",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/debug_libs.props",
+      "bytes": 914,
+      "sha256": "16d329ab368d22dd6e0df26c9044f41e3bc60cb1b0b4bde79ec1f2e4c05669a6",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTrack.h",
+      "bytes": 625,
+      "sha256": "ff353b1869cc2f40b9cbb7b4e2309f57ea5babfb6f94f56afdb218842ef9d3b1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTrack.cpp",
+      "bytes": 6161,
+      "sha256": "e8c57f6a85e77e7ce006b473538f1e3598f01ecf3f2a482ea576df72bd7895ea",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTexture.h",
+      "bytes": 488,
+      "sha256": "f18b34e071fcd7191a29715347e868fb6e123e395b94a74d016a93f6783d7d71",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTexture.cpp",
+      "bytes": 2784,
+      "sha256": "0416296d0492b4b7c0c32b0f33731f2b85903b4ccaf091d746f40376ece767d5",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSkyBox.h",
+      "bytes": 254,
+      "sha256": "28b9c30290faff078523032f9155c9b26a44f27c17380fd34d1a6d8a5ddb1b86",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/development_libs.props",
+      "bytes": 904,
+      "sha256": "c3b3b02f098d0d9882d42e4bbe7ec84eb38a6e7eee2738e13e42cc1da82446a4",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoBlip.h",
+      "bytes": 347,
+      "sha256": "dca7376f00b109b77bce8c575725d10b5f58878a1962ed9740ce0426294aa7c6",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoClutch.cpp",
+      "bytes": 5625,
+      "sha256": "46219710b306454cb0d17bfe44ee95d84d5d64773e80ccf045a8541698efe5dd",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoClutch.h",
+      "bytes": 749,
+      "sha256": "6b0eb40538c2ba13bf881f93757e7862e4c35892ac7b641731dc332f5d92a3c1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarSenseiData.h",
+      "bytes": 537,
+      "sha256": "81aecdcbb7c8b94e5878821c5dbad61ce547f5219ab6a5af507992e0efd50401",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarImpl.h",
+      "bytes": 963,
+      "sha256": "346ce10126e4bcce87813c3fd80861b51f77822d1305fb67d7a4bf1315b84383",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarDebug.h",
+      "bytes": 157,
+      "sha256": "ba339e827bda7359487454c25bb6d66a151cd4724b91bf5bf4177999dc6a5d74",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarControls.h",
+      "bytes": 392,
+      "sha256": "28e059f36d840936ed112b4109936984518993ea3a4b18241d33dff789620882",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarCommon.h",
+      "bytes": 1059,
+      "sha256": "65176c0f48a1475b97042deec86b8e8991b0f923aeefed9d222b85b2fdb3bbc2",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarColliderManager.h",
+      "bytes": 315,
+      "sha256": "e57812bae21dda67cd2e52ed6816a986d30197fcd2b86ab9ad7936b5bad056ef",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarColliderManager.cpp",
+      "bytes": 801,
+      "sha256": "ca03e4c794efa90a54a70cf400b86493d081226818456892c7852b1b1ed5c560",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Car.h",
+      "bytes": 7689,
+      "sha256": "209eb85a0eaca72a1333a3401e2417a1a53a1efe6aa02fc7fb8e9142c4578a1b",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Car.cpp",
+      "bytes": 61803,
+      "sha256": "0330e1f96e7666f58dffcb8f712a35eb809c69017edd67691890ca89249ff1aa",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushTyreModel.h",
+      "bytes": 574,
+      "sha256": "0b05b1aaaaca0b505968288e24a369a9f1b5226471ed2ba1b7555a4d9fa98d22",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushTyreModel.cpp",
+      "bytes": 870,
+      "sha256": "f4549729b61a8b759aec5457fba9c67e66325211b8b800b66b107f8c230f8064",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushSlipProvider.h",
+      "bytes": 682,
+      "sha256": "e2acae66b5c278a4f2987f9d260c9bfb9cf1c3e9572cee72477163f04dd5f105",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushSlipProvider.cpp",
+      "bytes": 1265,
+      "sha256": "b539d83eeb4d0f2ba750ad8f5d6f32d275d9734410f33617818b046f3fb9aee7",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrakeSystem.h",
+      "bytes": 1387,
+      "sha256": "e2fe488857c52978c4cdcf1cc9fe7415763851d6bd70f97f38ea86e0e1aaae18",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrakeSystem.cpp",
+      "bytes": 4817,
+      "sha256": "4e1bbb1e45aa5b241b236d54adc046745b09b54c1df854923a56f69e58012675",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoShifter.h",
+      "bytes": 435,
+      "sha256": "b129dbc45ab9a53b20cdb092f39e63290932042d1c9095107a3edb4f70e9e052",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoShifter.cpp",
+      "bytes": 2792,
+      "sha256": "e6b3fb043cfb4a828dd52f671e43a389f1c06c94243acc71b0ddb0545e3e7293",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Damper.cpp",
+      "bytes": 591,
+      "sha256": "281a54aa7ba5af59e530751a30028b1c65cfafd6ac91b686c848eccbb70e6e51",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSkyBox.cpp",
+      "bytes": 2901,
+      "sha256": "de0e19ec0b673ff5f19a128ec23e06cbf25fd8437bff83da98d22aab3477a0bd",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreModel.cpp",
+      "bytes": 4386,
+      "sha256": "367d344476b882436bfe4d17c247f170a212a5660512eef3d4db9dcc0b30f30f",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreStatus.h",
+      "bytes": 822,
+      "sha256": "f7ccd230c9f43a1347b9a14e79fe2deb902f762e793b98637be74970521ffb48",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/PhysicsEngineODE.h",
+      "bytes": 2478,
+      "sha256": "bc894ae2d52417308b44b9646f570deacd0367721debb21ef502c930c6c0bfa0",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/PhysicsEngineODE.cpp",
+      "bytes": 11272,
+      "sha256": "61f3a646ed9eab87e4c2698e59ef6e238c19b396693a867a7319b97223d795a3",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/JointODE.h",
+      "bytes": 1115,
+      "sha256": "be246617a7763ca08b78458698769de55740539db70f39bfec598044c2e4a579",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/JointODE.cpp",
+      "bytes": 2560,
+      "sha256": "3c505bdc6f37dc061fa4948d1c8bb07951094d93ac4d66c7aff9015b15e4f3ee",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/FlagsODE.txt",
+      "bytes": 148,
+      "sha256": "cb1365023e007c91a3689aa4f832607de2069435a40ea861699bb9c58d63a3e2",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/CollisionMeshODE.h",
+      "bytes": 599,
+      "sha256": "50c5fc4820faa8f2cd164bfc9b06766c42366d7ccc6929f149457881b10ebd42",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/CollisionMeshODE.cpp",
+      "bytes": 1595,
+      "sha256": "8e15577e36fd9c6e94212ddd826c15bdbc4e40ab4c2e201d9e0e7a995150e34c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RayCasterODE.cpp",
+      "bytes": 574,
+      "sha256": "4a0e487279131e3b5969c492d0953ed4d23444dd5f8a4e5cdaaea67c7f1ef599",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/PhysicsFactory.h",
+      "bytes": 180,
+      "sha256": "905a745dda3eee9113170baadbbe0ab027c4f2e76edab0bceec14736e4c1b08c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/PhysicsCommon.h",
+      "bytes": 66,
+      "sha256": "9567e78de6f0b847ed01d35a4250d752e84d21d0b4a17d16e6bd9d4afd1db10c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ITriMesh.h",
+      "bytes": 461,
+      "sha256": "c5c33c1bfa6b191f2ec53cf822faae55e419acc3e72541e5e64a619053b351a5",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IRigidBody.h",
+      "bytes": 2080,
+      "sha256": "4ab8350f0b788b416d393f4f36efdbaa3d8e4736f1c937c4473cd43881104ce8",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IRayCaster.h",
+      "bytes": 363,
+      "sha256": "78d1a442c06673e37cdcb10ad9063ea43a37a178026e12c762df8b31e1d209a8",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IPhysicsEngine.h",
+      "bytes": 1381,
+      "sha256": "1fdd2ca8e693a90f5d2f3d33cf7ea844506ae2eb22209112f7cfe9957bc46f99",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IJoint.h",
+      "bytes": 278,
+      "sha256": "97c9a3e42c7632dc0a14d1e65e5280a0acab24d29dd25de6ffe534bbe72afb4b",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ICollisionObject.h",
+      "bytes": 335,
+      "sha256": "5adf7f5e2f0e69a3e48042a10feec812324359595e51f72f9c07b0787151f786",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/PhysicsFactory.cpp",
+      "bytes": 228,
+      "sha256": "205243f6d7c96f8bb4a0612b0c1a58d6ce50af3db0df24c7f135d6a1a6534259",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RayCasterODE.h",
+      "bytes": 667,
+      "sha256": "85b4a117c0fc58ddda0a43ad01a64fcca44f5befbf5d20f25723db47de6e1538",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RigidBodyODE.cpp",
+      "bytes": 7906,
+      "sha256": "227bb6bf4e7dcf0cccb21e8dfab84eabd95548f520b44983fc44abf5a8a9eb2f",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RigidBodyODE.h",
+      "bytes": 2194,
+      "sha256": "698dde8d019cf331f5f7b3016081423542f1032dca9ca5fe6eb4b539bf16cc50",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "tools/check_reproduced_results.py",
+      "bytes": 1580,
+      "sha256": "8d2080acca2ce8c0854895a5507a38182b061a60f098e5028f1faf63554e7fbd",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.vcxproj.user",
+      "bytes": 553,
+      "sha256": "502b4146cd17cbb876ce3d8e540ca2f8624cd0cf1522e781d3d1ea25ff642d11",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.vcxproj.filters",
+      "bytes": 259,
+      "sha256": "5617d59193ddcb4b4a10601306bcd0acadce4cf66b75b361386a101b477019a3",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.vcxproj",
+      "bytes": 5538,
+      "sha256": "6566eff5f4aeb3c831bca8daa9629a34328cec4b45f9b3314100d7696df0fa4b",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.cpp",
+      "bytes": 27167,
+      "sha256": "001682b07ee6e66ef539ad2754d1b1408be97feaf30e46eb3a9aa19906ed42a9",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/dllmain.cpp",
+      "bytes": 436,
+      "sha256": "b819d5d4808f66496fb907650a09615d5f330297853217af226d11d7acc5874f",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Track.h",
+      "bytes": 3031,
+      "sha256": "68d3185dc2d654cfc2f6a9f62e6a678158f72885e2001d2417865865e4565876",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Track.cpp",
+      "bytes": 18747,
+      "sha256": "23b1d1cdcbf16248f2de0e903d11defd0525b1eecd569236ce302cf6d0a6ff30",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Surface.h",
+      "bytes": 953,
+      "sha256": "440f10cc13446f791d610930469d63ac5427b02f295725a085af5d06b32b751a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/SlipStream.h",
+      "bytes": 485,
+      "sha256": "b035bba9432f0576d9eb5b0d6624f34329e0646cfd2156303b6ced01a81e1bfa",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/SlipStream.cpp",
+      "bytes": 1641,
+      "sha256": "1500397614fa969dcafe904567da4c373d725d00d6781accfd42359647891c03",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/SimulatorCommon.h",
+      "bytes": 506,
+      "sha256": "a40804eea04fcebab2906301421715cb2d7b19d948aca7b3d92ee7d9473b19dc",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Simulator.h",
+      "bytes": 2740,
+      "sha256": "c6962460e470796cc551a3e920173a3395b09e351491ad71d4eed1f83a7432f8",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Simulator.cpp",
+      "bytes": 7969,
+      "sha256": "9c9dd2f162950fd2d91f41adb8fcdaf14344eb49c0a0db4f30728bf419823c5d",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/ITrackRayCastProvider.h",
+      "bytes": 488,
+      "sha256": "c1a11d78c7a5ba4fe09ed6a46a663da98f9aba673214b3e4a85cd0eb1c6ed39c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/TriMeshODE.h",
+      "bytes": 431,
+      "sha256": "20cb85db47721c782dddb37adc8c3a907f66de80213908c23b48f9506268a4a0",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/TriMeshODE.cpp",
+      "bytes": 661,
+      "sha256": "b908e2a50800d93ef0a49973b9ae89abe395958c0f3a1d97edcb33601f069a16",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ICollisionCallback.h",
+      "bytes": 361,
+      "sha256": "04f4bedd9d48e5b8e5ed8ef6bd0859c5f39e3d192d25a0a234156ea57b493bfb",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreModel.h",
+      "bytes": 978,
+      "sha256": "f673c5bdcf6783c453d6291613d8fab31996ea28126fb729784b3b8264a9cae5",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/VertexHash.h",
+      "bytes": 2788,
+      "sha256": "6e2366ba1eecedb133d127f1815e561066c9011bbbaa1fcc19b9b6d196baf852",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/String.h",
+      "bytes": 1031,
+      "sha256": "7d430807ec540e510b5835eee39348953606a3816de2fb9e43f2a6d58822e76a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/CubicSpline.h",
+      "bytes": 372,
+      "sha256": "96781f2df7c2dbfac358b4bd5c13f7b0eb24b1b2d4dd3fa4d9fdc724b86fac53",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/CubicSpline.cpp",
+      "bytes": 258,
+      "sha256": "0f4005b0a6a658b6042f348ddd56a62ffbe02589a78a9365aa5388c061ea3a09",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Core.h",
+      "bytes": 983,
+      "sha256": "22dfe801d29cf10ba04b0ad1da412e4236890d9fd48339ce1283eaa16908f450",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Common.h",
+      "bytes": 88,
+      "sha256": "4dcba5a9fc20e23c713fcba00f2e6f5c1c74cfd17ee70f50b8c576797cd3530f",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/ABIValidator.h",
+      "bytes": 751,
+      "sha256": "5dbe85fd9cb238da0f75ba478542cd2a2ae1fd146d2d2438711492c95f516b06",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/ABIValidator.cpp",
+      "bytes": 652,
+      "sha256": "0a52901359709884482c86cd21d5dd3b0a97ec594163667769378ecdbb9a1949",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/.vscode/settings.json",
+      "bytes": 1632,
+      "sha256": "26a6371e290210b131726cb26759344d98591d2ac5df40ed7e67ec2a8745f9c1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Curve.cpp",
+      "bytes": 3387,
+      "sha256": "96a1b4c0e4709d3796054870d9759b7aa6d960290377434f0e091b3aac6c0289",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/.vscode/launch.json",
+      "bytes": 856,
+      "sha256": "fe2dd6c478ebaa7b857810df3b449cc9611ac8491d5dd90449571874b5eebea6",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/WingDynamicController.h",
+      "bytes": 936,
+      "sha256": "bd17fded8797a051c58238b1586b548a9b9dd3f077ba6c43e2b93444a4a6663a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/WingDynamicController.cpp",
+      "bytes": 2806,
+      "sha256": "e5e8144fd555a98760b1b2236187af5907a0052b137c4d1db21678df4d285b60",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Wing.h",
+      "bytes": 1661,
+      "sha256": "9c06a2447d2155b77779f9736adf35b6a44157d13788516e5fcd9a4f9f8faca1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Wing.cpp",
+      "bytes": 5378,
+      "sha256": "fb308c0f2ae94ab3247989cd4784dc3245ff5f2e70b5b654f4d204f626c24328",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreUtils.inl",
+      "bytes": 1106,
+      "sha256": "0173c76badaa58622ff400a844311ebca53a539a9257c91c4fb2331a36b357cd",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreThermalModel.h",
+      "bytes": 1284,
+      "sha256": "44786fd6bc086f65028fa1173d4fb6faa0e1727b7a9e9d47874bfd8380104b02",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreThermalModel.cpp",
+      "bytes": 5284,
+      "sha256": "f3fafdc85ae84dfaa01ce29316a48c4f164fed7d60d51fce6c4da493d70da92b",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/.vscode/c_cpp_properties.json",
+      "bytes": 382,
+      "sha256": "e6ad23ec81916c7229439e5c9ce7bf7400951d819d1f95c47ad2af6b7ab64d61",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Curve.h",
+      "bytes": 852,
+      "sha256": "f75bae49da85dc5d32facd62979f721053ae3d028a3c185dc066b1ac63864db5",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/DebugGL.h",
+      "bytes": 758,
+      "sha256": "9cc50088cb27f68f1373f44cd882e452b2236cedbe4dd3a4c6b4d51f57f50b55",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Diag.cpp",
+      "bytes": 1377,
+      "sha256": "b32bb4b49a1b57c973f41d5656b6e3debcbef78a4f182dee63a231bfcd5b1f82",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/String.cpp",
+      "bytes": 2776,
+      "sha256": "0d9fb0b1e3063fb976b2c7e69f6716318573dea570b7ab8b1e157eaa14e8b664",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Spline3d.h",
+      "bytes": 1211,
+      "sha256": "858dc6472141acab0e5bef0741df05f86d802ea1d2d9510df0db3e9c6449521c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Spline3d.cpp",
+      "bytes": 3579,
+      "sha256": "48c88cbde03accd407107bee23982d8cf86313479f0cf4aef499b3f0803002a3",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Speed.h",
+      "bytes": 411,
+      "sha256": "227d3f9bf1f5e62ca31adafff40bfd36203ae33fdc46d4af5037d7219e190c00",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/SignalGenerator.h",
+      "bytes": 316,
+      "sha256": "ee2ba0d44bffc71be70795dc02a36ce51b8cf3f5f6c0c0de5c4e12eab10a8fdc",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/SharedMemory.h",
+      "bytes": 393,
+      "sha256": "0f993eb43781acccaf0dc86859945bdd84db001e87eefa4cead4e21745c6ad50",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/SharedMemory.cpp",
+      "bytes": 1526,
+      "sha256": "b09273f7b976e8b21da074942781bd071817f53512ad8e08d3572548d3882f21",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/PIDController.h",
+      "bytes": 301,
+      "sha256": "4537fb18ff30f2f742040f0e75da0a437fcd95d47f90df87710596909b6c1001",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/PIDController.cpp",
+      "bytes": 646,
+      "sha256": "dba0e8ab17fa23002e08c0faedcdc442b1f389e8f67d2934c4ecc7fad013d4d8",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/OS.h",
+      "bytes": 1303,
+      "sha256": "de16e77d3c319a1d879f4eca5995ddc1ef0d5b00c303794105a07ea0974387be",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/OS.cpp",
+      "bytes": 5261,
+      "sha256": "b1f0c313c1145f7101c5dc440abbee754069a7b9e017d0f68073c6509a1c86a2",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Math.h",
+      "bytes": 7756,
+      "sha256": "cd5ef46c7b96777ee706997544b1a0aa495b902c143d0bf48210007c989e4611",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Math.cpp",
+      "bytes": 2747,
+      "sha256": "75d3b7130f1e2fcd58bd6214a2b56f02cde075d7e951e92b906a6436ca1be19e",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/INIReader.h",
+      "bytes": 1900,
+      "sha256": "41d386428f25e495719f177ebc472a2b47d7d3fe160fd939698c79a5bedb29c9",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/INIReader.cpp",
+      "bytes": 5895,
+      "sha256": "f124776baf11a0421df039816b7a7743b66f278a132826fdda41738744f643f1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Event.h",
+      "bytes": 814,
+      "sha256": "e424bd0b27c1610d437c6356648f3313eb2b8df3f0ac846f0b2ee6f757837443",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Diag.h",
+      "bytes": 1994,
+      "sha256": "01c78891edd7c2a5593826716551918292651f6bf1003bb1f70781dd18373a44",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/tkspline.h",
+      "bytes": 14583,
+      "sha256": "c004a8e0b8b5dc058725e84b0f74ad56d5f9cdd07beb4ac82eb1a31b72553208",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "tools/export_human_summary.py",
+      "bytes": 1781,
+      "sha256": "3cf5a87f6b63af17d309cba7db5d8fa91fd7715e263268555a24c32e07a98318",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSimulator.h",
+      "bytes": 325,
+      "sha256": "255cbb0a2a746b4a5574146de7e070abf8e2856eb63eb4f16deaf25d25e5d5b0",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLPrimitive.h",
+      "bytes": 309,
+      "sha256": "5389ab5d1435b17984b0fb0018b80e597495007a1c954a8207f6a856e37fb180",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/100+ston+86/drift_threshold_sweep.csv",
+      "bytes": 26015,
+      "sha256": "a58b7e77655444575eba4c44096807b590a7c3e0da7643c597e633cbf25409e7",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/100+ston+86/drift_sensitivity_20260907_140724.csv",
+      "bytes": 760640,
+      "sha256": "c58af37930fae7bf6dd12393c6b8b2dd5425286e889cef0d31ca74505744f6f1",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case1_visual/README.md",
+      "bytes": 846,
+      "sha256": "6654c364e0da18b9c72da2f88fc7f2cc71ba0f6701eabad41c3ac9f0af1a8070",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/04_timing/source_scripts/ks_silverstone1967+ks_toyota_supra_mkiv_drift.py",
+      "bytes": 11745,
+      "sha256": "4e2bdf58115cedd5d4e434ca053514bfaff3db7a26456ab22f0b066aedce41af",
+      "role": "timing analysis source"
+    },
+    {
+      "path": "chapters/04_timing/source_scripts/ks_silverstone1967+ks_toyota_ae86_drift.py",
+      "bytes": 11745,
+      "sha256": "4e2bdf58115cedd5d4e434ca053514bfaff3db7a26456ab22f0b066aedce41af",
+      "role": "timing analysis source"
+    },
+    {
+      "path": "chapters/04_timing/source_scripts/ks_barcelona+ks_toyota_supra_mkiv_drift.py",
+      "bytes": 11745,
+      "sha256": "4e2bdf58115cedd5d4e434ca053514bfaff3db7a26456ab22f0b066aedce41af",
+      "role": "timing analysis source"
+    },
+    {
+      "path": "chapters/04_timing/source_scripts/ks_barcelona+ks_toyota_ae86_drift.py",
+      "bytes": 11745,
+      "sha256": "4e2bdf58115cedd5d4e434ca053514bfaff3db7a26456ab22f0b066aedce41af",
+      "role": "timing analysis source"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/80+ston+86/drift_sensitivity_20260907_143010.csv",
+      "bytes": 800599,
+      "sha256": "01cd1a65e4e8739d367ad6a6ced4be8a5a3dcfd6ed99f3cb9125b1b8d2a2da2f",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_silverstone1967+ks_toyota_supra_mkiv_drift/stage_summary.csv",
+      "bytes": 3244,
+      "sha256": "45cfeb9aa62133b6cca13eb23c8092e8313af7045bcc4073a998daf2413a64f3",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_silverstone1967+ks_toyota_ae86_drift/stage_summary.csv",
+      "bytes": 3229,
+      "sha256": "537b774bb8e9692f584c5815f085279917f3927296e2f356bc2e36d4197e8bd8",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_silverstone1967+ks_toyota_ae86_drift/selected_rows.csv",
+      "bytes": 376660,
+      "sha256": "01a7ccb33e78844cfcc346711f7fb42b918f3027a44cadc5d11614abb4b26e51",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_barcelona+ks_toyota_supra_mkiv_drift/stage_summary.csv",
+      "bytes": 3267,
+      "sha256": "5cb1c919ee4d545d3640decc92f835fac77b1a35c3bb222568ef2dffe924ab0c",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_barcelona+ks_toyota_supra_mkiv_drift/selected_rows.csv",
+      "bytes": 521078,
+      "sha256": "ba16f006ccb70a6ba27e2e0567daa2a8323f111b17354b0a198d7ede66970af4",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_barcelona+ks_toyota_ae86_drift/stage_summary.csv",
+      "bytes": 3282,
+      "sha256": "0f722f7bed29e3e95fcea8a03ac8d54ba036f829aab8524ac5d5b6af7a8d8097",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_barcelona+ks_toyota_ae86_drift/selected_rows.csv",
+      "bytes": 517527,
+      "sha256": "17da2d92a9acc8384c8c13b9908b69a2524d9e7d37e16d0b9fdc4877c6b1f91e",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/04_timing/README.md",
+      "bytes": 722,
+      "sha256": "48403eb52ec81e3987359a018d01c00db48cf6a7f0b9a1df420282ab54849bfe",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/04_timing/data/ks_silverstone1967+ks_toyota_supra_mkiv_drift/selected_rows.csv",
+      "bytes": 382932,
+      "sha256": "bf21940fa2d0204b15ca033fed71438ec1b411ba19a0d297e923bb11bf9caec7",
+      "role": "processed timing results"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/80+ston+86/drift_threshold_sweep.csv",
+      "bytes": 16592,
+      "sha256": "27b25a05e604b4c3d4d86aea95d06d2d7d94e7c939ae914f1e909d5732c2b130",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/85+ston+86/drift_sensitivity_20260910_125356.csv",
+      "bytes": 813566,
+      "sha256": "36e15116a1e226bdb60da1576cca717270e9790f09a1eb277c5492f27d27cbdc",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/85+ston+86/drift_threshold_sweep.csv",
+      "bytes": 25966,
+      "sha256": "ac12aa41600d14550bd21349687c08253bf694c62046ba11207ca32595c66374",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/analyze_case_study2_fixed_cycle_timing.py",
+      "bytes": 25134,
+      "sha256": "fd90f51b090c0a645c1d9637027a68efc49991b4e51653e13ff19b7f005f5ccc",
+      "role": "timing source"
+    },
+    {
+      "path": "chapters/05_case2_control/data/full_track_results/run_summary.csv",
+      "bytes": 68687,
+      "sha256": "fb0844213a973fb965a820fed91fb832684939f12db52f0b21e4a60b2e4e39d0",
+      "role": "run-level AI/control inputs"
+    },
+    {
+      "path": "chapters/05_case2_control/data/full_track_results/processing_status.csv",
+      "bytes": 2248,
+      "sha256": "b6992457c188587da51551e30fb3d6ae4e22ccf21b617403256dad10526ed4df",
+      "role": "run-level AI/control inputs"
+    },
+    {
+      "path": "chapters/05_case2_control/data/full_track_results/analysis_protocol.json",
+      "bytes": 691,
+      "sha256": "6c9c4b2bb5cbae3b5f7c89289fe7acbf55ff7c41a19e30c98d93e0577f767ce6",
+      "role": "run-level AI/control inputs"
+    },
+    {
+      "path": "chapters/05_case2_control/data/comparison/included_run_summary.csv",
+      "bytes": 68573,
+      "sha256": "0f025d29063b7e4aaaf7617726e9455b3a045806d6d3101c3c5f4f449dec5cd6",
+      "role": "processed AI/control comparison"
+    },
+    {
+      "path": "chapters/05_case2_control/data/comparison/group_statistics.csv",
+      "bytes": 62220,
+      "sha256": "790031223631d1c76e50ef6cf30ad0524741fc378a306793b9f5f766bb5d41fd",
+      "role": "processed AI/control comparison"
+    },
+    {
+      "path": "chapters/05_case2_control/data/comparison/ai_assisted_differences.csv",
+      "bytes": 36468,
+      "sha256": "55561e44d860dca663924294d9db78a26480f0ccdb1b0c68888affb469ee82a6",
+      "role": "processed AI/control comparison"
+    },
+    {
+      "path": "chapters/05_case2_control/README.md",
+      "bytes": 956,
+      "sha256": "16f4125ae3474028a814d61f13b9443d8ec813fdd5c5284b5cf6b2505eb3c55b",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/05_case1_visual/timing/stage_summary.csv",
+      "bytes": 3358,
+      "sha256": "957fa1abe04255d9cc873860ebc1fa0ba1cb3f7d00d4868d206eea53322892eb",
+      "role": "processed visual timing"
+    },
+    {
+      "path": "chapters/05_case1_visual/timing/selected_rows.csv",
+      "bytes": 615816,
+      "sha256": "0e6dc898f198a7e58d4cc5a2d9939a400db8410d6a66ba4b2917d4f3bfa38b9a",
+      "role": "processed visual timing"
+    },
+    {
+      "path": "chapters/05_case1_visual/source_scripts/build_exp1_evidence.py",
+      "bytes": 5171,
+      "sha256": "b2263919ef750bf2de96d2cd25fac53262ca619c6e3b454bedfd7eea48fa9cab",
+      "role": "persistence figure generator"
+    },
+    {
+      "path": "chapters/05_case1_visual/source_scripts/analyze_drift_trigger_sensitivity.py",
+      "bytes": 15129,
+      "sha256": "a6eb83b09ec4424c460a0b3ab874da01a2fae69d74ec02f4680649e144fe03e0",
+      "role": "persistence analysis source"
+    },
+    {
+      "path": "chapters/05_case1_visual/source_scripts/analyze_case_study1_fixed_cycle_timing.py",
+      "bytes": 9615,
+      "sha256": "75793952e0661cb2bff8c0409aa6425b1b81e4aac349e68963a427e201939857",
+      "role": "timing source"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/95+ston+86/drift_threshold_sweep.csv",
+      "bytes": 26050,
+      "sha256": "6cac60f3f19b4be9ff5b0bcec4bdda3aeaf5c3e7c3657bec934f5d46239384c3",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/95+ston+86/drift_sensitivity_20260910_125753.csv",
+      "bytes": 645898,
+      "sha256": "472a3616a4f208cab8d45b46d4b44976195f838edddf85803ea79b4492210978",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/90+ston+86/drift_threshold_sweep.csv",
+      "bytes": 26105,
+      "sha256": "4139aa9484185ae88289dc946a8b8f6e62b12759aa8e17ab44b3599299e133b3",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/05_case1_visual/data/90+ston+86/drift_sensitivity_20260907_142511.csv",
+      "bytes": 677171,
+      "sha256": "ecf109089b4a3d48b3c1c23a22bcf75c91089abc65b726c65f3408a97f546d1d",
+      "role": "request-level persistence summaries"
+    },
+    {
+      "path": "chapters/04_reproduction/source_scripts/rebuild_results.py",
+      "bytes": 4144,
+      "sha256": "1abcf22565981766c2df49b6b0bd9d3dc368ccdb6f103fcdc7f12987a1a7b2c4",
+      "role": "original analysis source; see portable entry point"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/compare_ai_assisted_full_track.py",
+      "bytes": 14561,
+      "sha256": "0b4d1c2d06e481c3369b64528daa540a792e47bf185082471655b7cc8a7b1ee5",
+      "role": "AI/control processing source"
+    },
+    {
+      "path": "chapters/04_reproduction/source_scripts/prepare_paper_assets.py",
+      "bytes": 3100,
+      "sha256": "323e7d56ae70519699e519f874b19c17ebf90728e4fe0640d590a4b867345a5c",
+      "role": "original analysis source; see portable entry point"
+    },
+    {
+      "path": "chapters/04_reproduction/source_scripts/draw_compact_figures.py",
+      "bytes": 8199,
+      "sha256": "1e67317f83992cc01dda1a645382aedaa4bf924de7b15de3ba125c6756391933",
+      "role": "original analysis source; see portable entry point"
+    },
+    {
+      "path": "chapters/04_aipush/source_scripts/preprocess_ai_driving_characteristics.py",
+      "bytes": 36600,
+      "sha256": "f113d52937cb2df89dfd31052525569634205c4313aeb13151dc076c134ee827",
+      "role": "AI preprocessing source"
+    },
+    {
+      "path": "chapters/04_aipush/source_scripts/analyze_processed_results.py",
+      "bytes": 6205,
+      "sha256": "01797ad21b6cbdb212c122f4e926f85ba9aa992506280413a3bb43c5d17f0a20",
+      "role": "AI preprocessing source"
+    },
+    {
+      "path": "chapters/04_aipush/data/spatial_repeatability_summary.csv",
+      "bytes": 9272,
+      "sha256": "112a18f4b427da3d5a023f9f738d9501063b9b23ae487548d4d7113322715097",
+      "role": "processed AI condition results"
+    },
+    {
+      "path": "chapters/04_aipush/data/silverstone_ae86_95_100_profiles.csv",
+      "bytes": 303101,
+      "sha256": "7537d63db219c48b21f4265e929840855b6c8cad58fb452a74c161dcdcbc8b3e",
+      "role": "processed AI condition results"
+    },
+    {
+      "path": "chapters/04_aipush/data/selected_run_metrics.csv",
+      "bytes": 331376,
+      "sha256": "f644dafb54e92b24bc04ea27cef8a9fd19b9318f2523f81b79c5d288331da07e",
+      "role": "processed AI condition results"
+    },
+    {
+      "path": "chapters/04_aipush/data/selected_condition_metrics.csv",
+      "bytes": 116191,
+      "sha256": "4af6b97002c007cfd2ba5c50712c400d1fc22929ac2096d5eeeafd73ec24a081",
+      "role": "processed AI condition results"
+    },
+    {
+      "path": "chapters/04_aipush/data/pid_qc_summary.csv",
+      "bytes": 140,
+      "sha256": "cfb24572e3703af79306836a02ff18bad5e3e4c747ca1c0a9ec1ba11d19c2e83",
+      "role": "processed AI condition results"
+    },
+    {
+      "path": "chapters/04_aipush/source_scripts/test_ai_preprocessing.py",
+      "bytes": 5483,
+      "sha256": "8593f4dbdd17480db5d82e25a87d8d1b799a8e524a28dc094799c3ada572f17d",
+      "role": "AI preprocessing source"
+    },
+    {
+      "path": "chapters/04_aipush/data/condition_overview.csv",
+      "bytes": 6852,
+      "sha256": "ef0d3ff770fa62bf63a0b62aebdf28321443ade10130045ac75ce1f1ec99e375",
+      "role": "processed AI condition results"
+    },
+    {
+      "path": "chapters/04_aipush/README.md",
+      "bytes": 899,
+      "sha256": "39099d7bf46a1e418af9356f13b348f2a6332d967dc504e54679267ae7ae5ab1",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "requirements-runtime-windows.txt",
+      "bytes": 142,
+      "sha256": "fa1aede9ab8a8e9d085db678ad69dd3fe1c72055ee31f2031e0f5c0f8fed2545",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "bytes": 90,
+      "sha256": "f2c8094d26da313a89e70ddaa7e2db70b066b00416c2bc76adb8c235fd102f78",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 3833,
+      "sha256": "bedd04279e53fceb6dc9f22ea567d98a77813db997fcf14584284ef6c1f69d85",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7054,
+      "sha256": "a0bcfbc52e5fff7ff6d4f716c4b71349d9d29d5e69496ae50c7defa5a9648b24",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "README_zh.md",
+      "bytes": 3069,
+      "sha256": "bd22f4bea3d741f548614d7a2e8292d30530540b4ae6a25fec3dd457a03a63e2",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 172,
+      "sha256": "0ce4e4ffff56b2bbecdcf767c84643ff8e70463d9bf0d0254fa051ef3237545c",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/04_aipush/data/channel_coverage.csv",
+      "bytes": 5780,
+      "sha256": "7d4322771ac2801fc0870c13f4c9865d59cc4211b2a733b984910c2598e4436a",
+      "role": "processed AI condition results"
+    },
+    {
+      "path": "chapters/04_reproduction/README.md",
+      "bytes": 1277,
+      "sha256": "b1469c7c5bcfc4f93c35eb3e93c7d23cd4233ebe463ea8b6c64a891b598972af",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/04_reproduction/data/data_audit.csv",
+      "bytes": 2016,
+      "sha256": "d27de8b5195debd6d6fa5379e15aece3cdda610fd3c73636c5e515773fa58272",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/exact_lambda_intervals.csv",
+      "bytes": 371978,
+      "sha256": "14028125dee8a6e25496fd80e6a1afc1423143f1461b8e1a0d7ce519fe74255c",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/source_scripts/build_configuration_assets.py",
+      "bytes": 5763,
+      "sha256": "f387a80d82862b5885c40f4b002120c94de47434cfae675dff869c6768de36c2",
+      "role": "original analysis source; see portable entry point"
+    },
+    {
+      "path": "chapters/04_reproduction/source_scripts/analysis_engine.py",
+      "bytes": 18435,
+      "sha256": "190e739e2d5fbbbf3ccb2e597dcc798f4505ae73b2e665ec33198c6bd3f8782f",
+      "role": "original analysis source; see portable entry point"
+    },
+    {
+      "path": "chapters/04_reproduction/paper_figures/utility_compact.pdf",
+      "bytes": 89755,
+      "sha256": "71de8a6203bf30e8bb365abd157cf6f9b2a0b4ac63fa9c9e611d0b0ffa5dab68",
+      "role": "manuscript figure snapshot"
+    },
+    {
+      "path": "chapters/04_reproduction/paper_figures/lambda_overview_compact.pdf",
+      "bytes": 50704,
+      "sha256": "a966ce011d8e6901d82a42d4e8e5143111d86f576d252e30d90e15c32b70c25d",
+      "role": "manuscript figure snapshot"
+    },
+    {
+      "path": "chapters/04_reproduction/paper_figures/five_metrics_compact.pdf",
+      "bytes": 98891,
+      "sha256": "5a8ad4d85517352690510b7245b8c39b48aae4251f39f15bf6b4170813b62b18",
+      "role": "manuscript figure snapshot"
+    },
+    {
+      "path": "chapters/04_reproduction/data/within_horizon_correlations.csv",
+      "bytes": 48148,
+      "sha256": "b16f27c893e7e0eb99fbcc7eafe7ef4defc03a21d135cf00d667c782bd866096",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/raw_curves.csv",
+      "bytes": 5485504,
+      "sha256": "e581828db41ab2b5778af4e32b031efbcc5dcd2c33bc9bb1922ac07972365701",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/paper_representative_values.csv",
+      "bytes": 5119,
+      "sha256": "34bc95c36adad830073b08dab1005e6260a5fbf9fc9ed571285949cb49ffcb9c",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/paper_preference_values.csv",
+      "bytes": 3324,
+      "sha256": "0b7076de611659d224a166fe1072df11a07391cde0c4594950d175a525b33474",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/normalized_curves.csv",
+      "bytes": 6363301,
+      "sha256": "f0d16258fa5841b3be112f1e93d12e272413a47ded85ae05c0eec3834acce7c1",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/normalization_sensitivity.csv",
+      "bytes": 233335,
+      "sha256": "f5c0dd964ddeb30377425d0e3b68edc6bf1ea0002052fe4f9ba28626075737e8",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/normalization_anchors.csv",
+      "bytes": 29996,
+      "sha256": "a3ad5832ef363dbb03b5c65704ad0b30a62dd27b0b9c3fddcf821159d1c96a02",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/marginal_errors.csv",
+      "bytes": 4074961,
+      "sha256": "9ad48c2e9a170d2eb1d84d362ac4f7ac49081200c996376e7eaf69b7e89222cd",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/lambda_scan.csv",
+      "bytes": 16270004,
+      "sha256": "1754024b0db5a36d10c1c5e8ced25c9e6297d159a2ed1f55206cc3244f170b1b",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/lambda_overview_validation.json",
+      "bytes": 5109,
+      "sha256": "f13ba7dbac71c63bfcedb2437af09ce4a2e3eb25b38dda0c58bc4ee3d4b603e0",
+      "role": "lambda figure validation input"
+    },
+    {
+      "path": "chapters/04_reproduction/data/group_weight_sensitivity.csv",
+      "bytes": 578518,
+      "sha256": "8c75c29f579286cc23fd5e7efbbe0dc4ff940cb8b2d651b3038d191f09e5d507",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/data/exclusion_reconciliation.csv",
+      "bytes": 1739,
+      "sha256": "af27cfb9a4c010cc41ee369c3d6688bc352e3da6ab07f65c554864799ced0cff",
+      "role": "processed reproduction results"
+    },
+    {
+      "path": "chapters/04_reproduction/source_scripts/draw_lambda_overview.py",
+      "bytes": 5290,
+      "sha256": "7d03ce4b0f73a4865af7aa29728b2092b80346f8378de09643424f856b7bf3c0",
+      "role": "original analysis source; see portable entry point"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSimulator.cpp",
+      "bytes": 814,
+      "sha256": "c2c8a2f8f73ea2ce3ed7dc0cb14cc5b1bdc096532f8e2986502b69deaaf7c657",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/Data_pre_process.py",
+      "bytes": 3377,
+      "sha256": "06691b49f4b6b5b8ae99318d3da6e22fafdf47e0da384a3f7771a49026a45cd2",
+      "role": "AI/control processing source"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/main4only_track_analyze_driving_v2.py",
+      "bytes": 9983,
+      "sha256": "7fe4ce1db638d661fc123ef11708859630463efd12820c8d80cecf55b91bac68",
+      "role": "AI/control processing source"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIContext.h",
+      "bytes": 680,
+      "sha256": "9738ed3e8aaeddcba176a15868eace4e0d839767fb7ded89345c07eef8c23a93",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIContext.cpp",
+      "bytes": 3027,
+      "sha256": "c704467a2fab0028ac50e6c567f127dacb6761fa228ebb246ba1c22030174d1d",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DICommon.h",
+      "bytes": 679,
+      "sha256": "8b786fa3f9ee2b2855f6996c234a9594c01f54afa21eff4fca0df65881f605de",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DICarController.h",
+      "bytes": 2064,
+      "sha256": "34698c02b5b7b5d43846a2e759a0328900f11c23cde7367b1eb791f2f541d550",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DICarController.cpp",
+      "bytes": 7735,
+      "sha256": "93a10b75c912dda82317cd945484704c4e7accc0ccf45b9bae3052781f6d7c2d",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodContext.h",
+      "bytes": 976,
+      "sha256": "d9cafcdcf15ac081814cabcb6087d23aa1840474d8904fba089a3658da6b2cd7",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodContext.cpp",
+      "bytes": 6153,
+      "sha256": "983676686fb4c42dd3c1bc42de928e2137110c13e0b5103ee8390f670c7e533c",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIDevice.cpp",
+      "bytes": 6411,
+      "sha256": "7a8859f833a2965a5446d699f1e67000676591b722417ec75e197e94f748cc9a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodAudioRenderer.h",
+      "bytes": 702,
+      "sha256": "e035c6194ae6113cec2a3f5ed0aa7981d19d71fcd66ace592549cc988ea5fc3e",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.vcxproj.user",
+      "bytes": 225,
+      "sha256": "a0c24e8908c9bcc5eb33cdd38762da3a86013fe87f0c681238ec4bcee56d15e1",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.vcxproj.filters",
+      "bytes": 4892,
+      "sha256": "ab2fcc99d74cceffe4def89e93e73fe48a10ae7eea1fa8c6b8bd6b00bf69ef81",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.vcxproj",
+      "bytes": 7357,
+      "sha256": "b22302d0d6c07d69b383e284f39682464df87b00942bcc2e6cb2563de53bcd27",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.h",
+      "bytes": 6291,
+      "sha256": "135014997164311a40def646f6e383b82b576cc3e050432a6567c7af6686ae72",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Window.cpp",
+      "bytes": 4130,
+      "sha256": "1f7a4eae3b95c22647423d90318576824b9c00a2088ad03feff36cb248191d77",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Tick.cpp",
+      "bytes": 12557,
+      "sha256": "d03dc7aea1b9299be8971ce5f3c41164c9017854724908660203d6d151db61d6",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Render.cpp",
+      "bytes": 2584,
+      "sha256": "de18e42bde2c4a5e165af50f82063e71935afa1002245c90856975f9e4472988",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodAudioRenderer.cpp",
+      "bytes": 6704,
+      "sha256": "7ce9835fd70289ecc39e77caffe6f7d1b1f9ffa624ec2fbb1a8e9ebea0830e89",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIDevice.h",
+      "bytes": 1059,
+      "sha256": "92ceb16ee6663c1524036e3d7d79d99bc13e929821ffb97ea69bc3327cee6132",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/IGameController.h",
+      "bytes": 286,
+      "sha256": "f79a12b981606f613b7746b67a8e98a15d49b89703d7cd8e0f197a3de5233792",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/InputVariable.cpp",
+      "bytes": 658,
+      "sha256": "e7a5b49672e074a170e7e369d3a803d32d67cc85526361902c9d8aef90d6ada6",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLPrimitive.cpp",
+      "bytes": 3216,
+      "sha256": "0070edd49fee4478d428cb8c941553ff7ebf87235a02baa3b15016f52474e88a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLFont.h",
+      "bytes": 579,
+      "sha256": "ed81f97590c49839b115ae7018989199961075404ab2c22a1cced17b458d2918",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLFont.cpp",
+      "bytes": 2350,
+      "sha256": "f9f451f169142a9f0567fb8e9b701751c7cfeca890ad404178825c1a139c425f",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCore.h",
+      "bytes": 1115,
+      "sha256": "402a4ae148e91760f73fee27157a96df33b6d085d1b93340ba6979250443c80f",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCore.cpp",
+      "bytes": 311,
+      "sha256": "9af1114b7fd2d0e4b13368f8325999bbcdae277aecf0b0140d6a1fe26a4ded24",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLChart.h",
+      "bytes": 446,
+      "sha256": "6fd61d543eb6df296719abdef4dd4e6bcff6f4d22805d6e822b54d91aa7ad3f3",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLChart.cpp",
+      "bytes": 1186,
+      "sha256": "29f205aeac0704ae739cebd0d5eb892786eca392640a65d0ec10de9a7d3ee1fc",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCar.h",
+      "bytes": 392,
+      "sha256": "a8191720db77cd4e65b621fc4702d529946d5bfbbfce3c3a8a3e780e1bd80009",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCar.cpp",
+      "bytes": 5048,
+      "sha256": "aae7d48f9b8757c4bd8d08c45ab0fbd00f554dc8dd6858dfb9a7cdc991520518",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/DefaultFont.h",
+      "bytes": 2742,
+      "sha256": "718160352cd63138e75f6a44caf588e132c300da933e70d4cf8b395331ef06da",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/ChartSurface.h",
+      "bytes": 5080,
+      "sha256": "408481bfca065eaa6a0cec24381e1910437a7ae9dd4ad1d4f533ecc48f5fb674",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Nuklear/style.h",
+      "bytes": 7994,
+      "sha256": "7a582b884c34f75b17741e4aa01f3689d5d3f526178ac7ef752b9f176866cc4d",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Nuklear/nuklear.h",
+      "bytes": 1192570,
+      "sha256": "691675f03a8c5d7344d76a54e22228dfdda0ffa39d0200725bd334742a0416dd",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Nuklear/nuklear_sdl_gl2.h",
+      "bytes": 13267,
+      "sha256": "24d47153647a34499ab7067f8bdd1d2f7c23d93273f29fb0667efe31268f4bd2",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/KeyboardCarController.h",
+      "bytes": 1464,
+      "sha256": "fef5fea6cff237a4676c8e9ef99f75d25c8ff11298b1bfe7f18e6da50718e094",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/KeyboardCarController.cpp",
+      "bytes": 4489,
+      "sha256": "c374da95fd13b11e65f55aeac9e1ea8df8a9fe1ad0e4b11ac27f574dd6525470",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/InputVariable.h",
+      "bytes": 451,
+      "sha256": "ad637f60d6407f5ee4d9d0e0fa5e6ab2c14370bffbaea30787496fc2863b79a7",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Nuk.cpp",
+      "bytes": 9107,
+      "sha256": "b6ef53b43bb0cf67bc6d97f3ea2fcbd59cf0936935578d83e7ffddfe1b962b96",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/main4only_batch_analyze_driving_v2.py",
+      "bytes": 11712,
+      "sha256": "c0ac947098fff0d47ae6c22c2404eb33793fc93011d245c033eaa41e9d8143cf",
+      "role": "AI/control processing source"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Init.cpp",
+      "bytes": 6334,
+      "sha256": "5f0486b00b5aa992ad3ddcf1ddf15be09344f89350a2583335921b43a6779979",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Debug.cpp",
+      "bytes": 11386,
+      "sha256": "de7897a7df2ede3309864a88219ddb7387183308b78fbe13c0ed76bf2cba7da4",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "docs/tested_environment.json",
+      "bytes": 419,
+      "sha256": "cd50280bf57e817e9913995aca8d3c762dcc642b777f4be8115989ec55659163",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 2099,
+      "sha256": "a23c260403bdaf09b250d0fbe476d37233072e82096c02ef0df94f949cb73a2d",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "docs/RELEASE_CHECKLIST.md",
+      "bytes": 1730,
+      "sha256": "cf39e7be33bd167bb0a903c758f48c008d6da95a2f285ed596d6b91554142086",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "docs/projectd_local_license.txt",
+      "bytes": 98,
+      "sha256": "73c0ef38718b7602c32ebe72476dad353aff80e6f5f29f9b3f70e1c2defe1394",
+      "role": "local dependency license evidence; not a repository license"
+    },
+    {
+      "path": "docs/data_schemas.json",
+      "bytes": 37582,
+      "sha256": "c49f73d618e6cd5304b768464f7a10ad72fae88b334bf4924a8599c5904468b3",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 1727,
+      "sha256": "06859459cf3c64d6d934e93f94b7bd524e4468111696ab2a50df89f7e43dcaa2",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/05_case3_human/source_scripts/preprocess_human_driving.py",
+      "bytes": 18848,
+      "sha256": "bf583b105560ae19dabe87797df0f719688ac0c1e288226720aecc61c61d70c5",
+      "role": "code only; participant data withheld"
+    },
+    {
+      "path": "docs/THIRD_PARTY.md",
+      "bytes": 1643,
+      "sha256": "a919f2b7b8c6d34f6b1595f09c88f13b50eda4cd117a08b51a292aaa3f0471dd",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/05_case3_human/data/run_summary.csv",
+      "bytes": 138983,
+      "sha256": "f7003ea66feaa258c5d9c03c198bdfcc17ef05397dd62c0d22d3fa42f45cae87",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "chapters/05_case2_control/timing/stage_summary.csv",
+      "bytes": 2242,
+      "sha256": "58e2b388a6f903ceb2d6fa0e8cd3c4351a6a97b4819cee107683dbba5859e9a5",
+      "role": "processed control timing"
+    },
+    {
+      "path": "chapters/05_case2_control/timing/selected_steady_rows.csv",
+      "bytes": 395107,
+      "sha256": "0d8001f59d32913dd92aff4d12218770f538ab39fabc8932d6eed255ad2f1149",
+      "role": "processed control timing"
+    },
+    {
+      "path": "chapters/05_case2_control/timing/quarter_summary.csv",
+      "bytes": 537,
+      "sha256": "ac3e04326c4b96368ef3551ab7f30ab98f871028d8ca475432a882473ee01b3f",
+      "role": "processed control timing"
+    },
+    {
+      "path": "chapters/05_case2_control/timing/deadline_misses.csv",
+      "bytes": 12389,
+      "sha256": "3583693fa6880e9398add232d1ad08753b59c157e31f655475eabf63c51228ae",
+      "role": "processed control timing"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/test_full_track_pipeline.py",
+      "bytes": 2905,
+      "sha256": "c214b6839efdfce435334d8c2f99efdb027cf1ac9efbd77b5d2786201bee6a41",
+      "role": "AI/control processing source"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/test_ai_assisted_comparison.py",
+      "bytes": 1881,
+      "sha256": "4d7fdd944b98ca8094779863098910c81b07831f8639d36f1366baeb2543c1a7",
+      "role": "AI/control processing source"
+    },
+    {
+      "path": "chapters/05_case2_control/source_scripts/run_pipeline_from_original.py",
+      "bytes": 5405,
+      "sha256": "0a14cad684164cdbd7f5c9d65f76b9c1da0005539d074595e290c1306d83b3cd",
+      "role": "AI/control processing source"
+    },
+    {
+      "path": "chapters/05_case3_human/README.md",
+      "bytes": 1518,
+      "sha256": "e1deb5f9d7bf5045a735b9ff771f40bce629abb65432682e296e49c4963d6b0a",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1232,
+      "sha256": "dbc2d8f7b7c7bc5fbff6713b86365afc128ed393a5fbb0554565477997fdfb43",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "docs/VPCL_MERGE_2026-09-30.md",
+      "bytes": 1727,
+      "sha256": "15b7b0f1f52af1053832fea4d7c0d41e3e47c57d834adc905db8c88635b5611a",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "docs/vpcl_merge_verification.json",
+      "bytes": 38845,
+      "sha256": "daebdf739ac4479babb061c90b3b1a5a8c805f23e114705b112f0156723e02ed",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/ScoringSystem.cpp",
+      "bytes": 44479,
+      "sha256": "e421c4710b9bd9d39567535241d56c43f9a4ff8cf0151475b887ab349d1f898c",
+      "role": "runtime snapshot; license/version review pending"
+    },
+    {
+      "path": "platform/model/exp2_case_study2.py",
+      "bytes": 67414,
+      "sha256": "b15666359bbb0ca8c35d2873e45b9988f8e0548a41f1cb12e54c1bd659aaf103",
+      "role": "runtime snapshot; license/version review pending"
+    },
+    {
+      "path": "platform/model/exp2_case_study1.py",
+      "bytes": 34700,
+      "sha256": "3c2444c4323e7a896b97804f94af3a9a97665cd4f8eb68f0e901bd8318f95a89",
+      "role": "runtime snapshot; license/version review pending"
+    },
+    {
+      "path": "platform/model/exp1.py",
+      "bytes": 36400,
+      "sha256": "123a0f8e9536928838cfd6bafb8c43fdc5beea5cdaa17651e832a92e0789c190",
+      "role": "runtime snapshot; license/version review pending"
+    },
+    {
+      "path": "platform/model/exp1_zoh_game_timing_validation.py",
+      "bytes": 341,
+      "sha256": "1005c4d4aa0c39cfb635dfb21b69070aa9e8017324cf55b83e564713d229d013",
+      "role": "runtime snapshot; license/version review pending"
+    },
+    {
+      "path": "platform/model/exp1_ai_validation.py",
+      "bytes": 36162,
+      "sha256": "db9ea37e9721a5d95b7272c6177769f767ef1c2f7655c5b37c2ceb18d26314b1",
+      "role": "runtime snapshot; license/version review pending"
+    },
+    {
+      "path": "platform/bin/PyProjectD.pyd",
+      "bytes": 3079168,
+      "sha256": "516ca2829582a5bc5485f364365919d5de9ecb583c5c654477a2d79c45716506",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/ac/unbound/Unbound.lua",
+      "bytes": 53822,
+      "sha256": "3a325a392c54e433ba96e067029925c74aa77dd5322daacfaba6f596a7aadd2d",
+      "role": "external-control script; license review pending"
+    },
+    {
+      "path": "platform/ac/opt_vjoy.py",
+      "bytes": 2902,
+      "sha256": "931fe8a766b43a04c470367a435e314ab3348c7d7fb5eb6459503ebc6187fab8",
+      "role": "supporting dependency candidate; recording-version confirmation pending"
+    },
+    {
+      "path": "platform/ac/main_show_paper1_exp2casestudy2.py",
+      "bytes": 72133,
+      "sha256": "00e492ae49eb1121f650eff6c16b806243be271133cc3ee7e008c60540af7d79",
+      "role": "runtime snapshot; recording-version confirmation pending"
+    },
+    {
+      "path": "platform/ac/main_show_paper1_exp1andexp2casestudy1.py",
+      "bytes": 37199,
+      "sha256": "758f4c47f4a769bf28017118da78c7d71e56e9d0f4afd1acac28349ac73af237",
+      "role": "runtime snapshot; recording-version confirmation pending"
+    },
+    {
+      "path": "platform/ac/main_show_paper1_exp1.py",
+      "bytes": 35710,
+      "sha256": "a1142046d873ba73d1269bb0b1375ed1e3da0678e50726acd8a66c33ef7a26b5",
+      "role": "runtime snapshot; recording-version confirmation pending"
+    },
+    {
+      "path": "platform/ac/G29_vjoy.py",
+      "bytes": 4128,
+      "sha256": "8fe1d1d42fdfe341baa474ed72836c04e76d0f297d8bbecd32f5622958b45d62",
+      "role": "supporting dependency candidate; recording-version confirmation pending"
+    },
+    {
+      "path": "platform/ac/accardata_to_sim.py",
+      "bytes": 9551,
+      "sha256": "6de1ee3b90b155e24922e55c1e7fa81bf90209a8ac782c7cbbb45a5cc55a9bae",
+      "role": "supporting dependency candidate; recording-version confirmation pending"
+    },
+    {
+      "path": "platform/README.md",
+      "bytes": 2648,
+      "sha256": "a3ac690eeb6fea7ed0c1b0b21d538404588507dfad648d0c9f623deb1cc2f1e0",
+      "role": "release documentation or portable tooling"
+    },
+    {
+      "path": "docs/legacy_vpcl/README.md",
+      "bytes": 12984,
+      "sha256": "f85bd5e820a418fc5bea021bb3fb78a4d57a79d147c21920fd0bb67de1207112",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "docs/legacy_vpcl/LICENSE",
+      "bytes": 1291,
+      "sha256": "d661285f3a4af2b27c526e408911edca04f5473dd94c4250e2d78cb277bdeab4",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Demo.cpp",
+      "bytes": 3524,
+      "sha256": "545553e433ac047809645c3a820fea501884c78b34ba7f7b0130d32e210b8d60",
+      "role": "VPCL source, runtime interface or merge documentation"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 994,
+      "sha256": "4889b2274fe0f1921ec6fb7bcaa9e0ba5b1bbcc455560539be6b6a8e12508500",
+      "role": "release documentation or portable tooling"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "file_count": 327,
+  "bytes": 47365488.0,
+  "max_file_bytes": 16270004.0,
+  "local_path_fields_sanitized": 0,
+  "human_data": "30 anonymized run summaries; author confirmed permission",
+  "raw_telemetry_included": false,
+  "remote_created": false,
+  "counting_scope": "Manifest entries, excluding manifest itself, this audit and generated outputs",
+  "vpcl_merge": "2026-09-30: 204 source files and one pyd, copied hashes verified"
+}

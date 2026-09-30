@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+logs/
+timing_logs/
+*.dll
+*.pyd
+*.exe
+.env
+local_settings.json
+private/
+platform/bin/*
+!platform/bin/PyProjectD.pyd
+platform/content/

@@ -1,0 +1,4 @@
+-r requirements-analysis.txt
+pygame>=2.5
+pyvjoy>=1.0
+# PyProjectD, AC, ACTI, Custom Shaders Patch and vJoy driver are external prerequisites.

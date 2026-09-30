@@ -1,0 +1,179 @@
+{
+  "protocol": "pooled P95; grouped loss; fixed 500-step endpoint normalization; 5718 retained rollouts",
+  "source_sha256": {
+    "raw_curves.csv": "6e0d12fb74eed78a08412202c846e5bd3c17a7e5146f1f8ba1956d59b56ced82",
+    "normalized_curves.csv": "8e8d781db1e106d5793da555197d7beaf8f94b74fd6894861d931950aa6bbdc2",
+    "lambda_scan.csv": "c5e1eeae4a3cedcf172850368f451f1ebe2fbfb7ec7a58bf56ecc7f5bf3aeb75",
+    "exact_lambda_intervals.csv": "abddc2f50578d26ac7f35515537ebefa98965426fd35c675e2d5cf525d42c8b3"
+  },
+  "configs": {
+    "Barcelona + AE86": {
+      "verified_scan_points": 245,
+      "intervals_in_range": 29,
+      "examples": {
+        "0.1": {
+          "step": 500,
+          "distance_m": 46.80179926992715,
+          "benefit": 1.0,
+          "loss": 1.0
+        },
+        "0.5": {
+          "step": 487,
+          "distance_m": 45.5849110301568,
+          "benefit": 0.9739499438973634,
+          "loss": 0.9462315436200036
+        },
+        "1.0": {
+          "step": 266,
+          "distance_m": 24.896032229171603,
+          "benefit": 0.5310609127994691,
+          "loss": 0.27777191560558256
+        },
+        "2.0": {
+          "step": 176,
+          "distance_m": 16.470177854098033,
+          "benefit": 0.35068775114845757,
+          "loss": 0.133269010515341
+        },
+        "10.0": {
+          "step": 11,
+          "distance_m": 1.025320060160954,
+          "benefit": 0.020058036043943493,
+          "loss": -0.023319067486357443
+        }
+      },
+      "largest_step_drop": {
+        "lambda": 2.009571852001379,
+        "from": 176,
+        "to": 36,
+        "drop": 140
+      }
+    },
+    "Barcelona + Supra": {
+      "verified_scan_points": 245,
+      "intervals_in_range": 35,
+      "examples": {
+        "0.1": {
+          "step": 500,
+          "distance_m": 51.64514525156349,
+          "benefit": 1.0,
+          "loss": 1.0
+        },
+        "0.5": {
+          "step": 469,
+          "distance_m": 48.44276744788096,
+          "benefit": 0.9378777445182312,
+          "loss": 0.8653522617022282
+        },
+        "1.0": {
+          "step": 248,
+          "distance_m": 25.60563282655294,
+          "benefit": 0.49486495889803456,
+          "loss": 0.3011251932849521
+        },
+        "2.0": {
+          "step": 42,
+          "distance_m": 4.330311076983575,
+          "benefit": 0.08214945366821999,
+          "loss": -0.003446301869553284
+        },
+        "10.0": {
+          "step": 13,
+          "distance_m": 1.3352776577455645,
+          "benefit": 0.024049428420610554,
+          "loss": -0.02235394201510262
+        }
+      },
+      "largest_step_drop": {
+        "lambda": 1.4683529039105145,
+        "from": 159,
+        "to": 76,
+        "drop": 83
+      }
+    },
+    "Silverstone + AE86": {
+      "verified_scan_points": 245,
+      "intervals_in_range": 24,
+      "examples": {
+        "0.1": {
+          "step": 500,
+          "distance_m": 59.042674462184245,
+          "benefit": 1.0,
+          "loss": 1.0
+        },
+        "0.5": {
+          "step": 441,
+          "distance_m": 52.08236491303657,
+          "benefit": 0.8818932718357874,
+          "loss": 0.7465034484727759
+        },
+        "1.0": {
+          "step": 256,
+          "distance_m": 30.241668546460645,
+          "benefit": 0.5112871701286918,
+          "loss": 0.21569465789058562
+        },
+        "2.0": {
+          "step": 177,
+          "distance_m": 20.909411622012502,
+          "benefit": 0.3529318090701656,
+          "loss": 0.10442867819275309
+        },
+        "10.0": {
+          "step": 14,
+          "distance_m": 1.6481875287458494,
+          "benefit": 0.026095747824584965,
+          "loss": -0.042458676460074764
+        }
+      },
+      "largest_step_drop": {
+        "lambda": 2.13525702776855,
+        "from": 177,
+        "to": 36,
+        "drop": 141
+      }
+    },
+    "Silverstone + Supra": {
+      "verified_scan_points": 245,
+      "intervals_in_range": 43,
+      "examples": {
+        "0.1": {
+          "step": 500,
+          "distance_m": 65.92791757398177,
+          "benefit": 1.0,
+          "loss": 1.0
+        },
+        "0.5": {
+          "step": 438,
+          "distance_m": 57.77131651557181,
+          "benefit": 0.8760518010338806,
+          "loss": 0.7406340471593081
+        },
+        "1.0": {
+          "step": 253,
+          "distance_m": 33.391685835930126,
+          "benefit": 0.5055774707875749,
+          "loss": 0.2535115440884273
+        },
+        "2.0": {
+          "step": 70,
+          "distance_m": 9.24277813980335,
+          "benefit": 0.1386092208389291,
+          "loss": 0.01585822317248574
+        },
+        "10.0": {
+          "step": 16,
+          "distance_m": 2.1062391899587416,
+          "benefit": 0.030161946864095755,
+          "loss": -0.0148322268209977
+        }
+      },
+      "largest_step_drop": {
+        "lambda": 1.9756466523526846,
+        "from": 113,
+        "to": 70,
+        "drop": 43
+      }
+    }
+  }
+}

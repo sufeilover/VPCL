@@ -1,0 +1,18 @@
+{
+  "selected_files": 60,
+  "successful_files": 60,
+  "failed_files": 0,
+  "lap_index": 1,
+  "scope": "GLOBAL only, no corners/straights/sectors",
+  "aggregation": "sample-weighted within each run; no across-condition score",
+  "spline": "external/spline_points.csv",
+  "folders": null,
+  "limit": null,
+  "notes": [
+    "Historical shared folders are labeled optimizer-assisted.",
+    "Raw heading convention is unverified; heading error is not validated.",
+    "CTE fields retain historical names: nearest sampled-point distance.",
+    "No s_norm in spline means progress error is unavailable, not zero.",
+    "Summary covers ONLY files selected in this invocation."
+  ]
+}

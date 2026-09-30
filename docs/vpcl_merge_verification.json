@@ -1,0 +1,832 @@
+{
+  "date": "2026-09-30",
+  "copied_files_verified": 205,
+  "files": [
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Debug.cpp",
+      "sha256": "de7897a7df2ede3309864a88219ddb7387183308b78fbe13c0ed76bf2cba7da4"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Demo.cpp",
+      "sha256": "545553e433ac047809645c3a820fea501884c78b34ba7f7b0130d32e210b8d60"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Init.cpp",
+      "sha256": "5f0486b00b5aa992ad3ddcf1ddf15be09344f89350a2583335921b43a6779979"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Nuk.cpp",
+      "sha256": "b6ef53b43bb0cf67bc6d97f3ea2fcbd59cf0936935578d83e7ffddfe1b962b96"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Render.cpp",
+      "sha256": "de18e42bde2c4a5e165af50f82063e71935afa1002245c90856975f9e4472988"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Tick.cpp",
+      "sha256": "d03dc7aea1b9299be8971ce5f3c41164c9017854724908660203d6d151db61d6"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PG_Window.cpp",
+      "sha256": "1f7a4eae3b95c22647423d90318576824b9c00a2088ad03feff36cb248191d77"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.h",
+      "sha256": "135014997164311a40def646f6e383b82b576cc3e050432a6567c7af6686ae72"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.vcxproj",
+      "sha256": "b22302d0d6c07d69b383e284f39682464df87b00942bcc2e6cb2563de53bcd27"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.vcxproj.filters",
+      "sha256": "ab2fcc99d74cceffe4def89e93e73fe48a10ae7eea1fa8c6b8bd6b00bf69ef81"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/PlaygrounD.vcxproj.user",
+      "sha256": "a0c24e8908c9bcc5eb33cdd38762da3a86013fe87f0c681238ec4bcee56d15e1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodAudioRenderer.cpp",
+      "sha256": "7ce9835fd70289ecc39e77caffe6f7d1b1f9ffa624ec2fbb1a8e9ebea0830e89"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodAudioRenderer.h",
+      "sha256": "e035c6194ae6113cec2a3f5ed0aa7981d19d71fcd66ace592549cc988ea5fc3e"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodContext.cpp",
+      "sha256": "983676686fb4c42dd3c1bc42de928e2137110c13e0b5103ee8390f670c7e533c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Audio/FmodContext.h",
+      "sha256": "d9cafcdcf15ac081814cabcb6087d23aa1840474d8904fba089a3658da6b2cd7"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DICarController.cpp",
+      "sha256": "93a10b75c912dda82317cd945484704c4e7accc0ccf45b9bae3052781f6d7c2d"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DICarController.h",
+      "sha256": "34698c02b5b7b5d43846a2e759a0328900f11c23cde7367b1eb791f2f541d550"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DICommon.h",
+      "sha256": "8b786fa3f9ee2b2855f6996c234a9594c01f54afa21eff4fca0df65881f605de"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIContext.cpp",
+      "sha256": "c704467a2fab0028ac50e6c567f127dacb6761fa228ebb246ba1c22030174d1d"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIContext.h",
+      "sha256": "9738ed3e8aaeddcba176a15868eace4e0d839767fb7ded89345c07eef8c23a93"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIDevice.cpp",
+      "sha256": "7a8859f833a2965a5446d699f1e67000676591b722417ec75e197e94f748cc9a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/DIDevice.h",
+      "sha256": "92ceb16ee6663c1524036e3d7d79d99bc13e929821ffb97ea69bc3327cee6132"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/IGameController.h",
+      "sha256": "f79a12b981606f613b7746b67a8e98a15d49b89703d7cd8e0f197a3de5233792"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/InputVariable.cpp",
+      "sha256": "e7a5b49672e074a170e7e369d3a803d32d67cc85526361902c9d8aef90d6ada6"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/InputVariable.h",
+      "sha256": "ad637f60d6407f5ee4d9d0e0fa5e6ab2c14370bffbaea30787496fc2863b79a7"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/KeyboardCarController.cpp",
+      "sha256": "c374da95fd13b11e65f55aeac9e1ea8df8a9fe1ad0e4b11ac27f574dd6525470"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Input/KeyboardCarController.h",
+      "sha256": "fef5fea6cff237a4676c8e9ef99f75d25c8ff11298b1bfe7f18e6da50718e094"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Nuklear/nuklear_sdl_gl2.h",
+      "sha256": "24d47153647a34499ab7067f8bdd1d2f7c23d93273f29fb0667efe31268f4bd2"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Nuklear/nuklear.h",
+      "sha256": "691675f03a8c5d7344d76a54e22228dfdda0ffa39d0200725bd334742a0416dd"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Nuklear/style.h",
+      "sha256": "7a582b884c34f75b17741e4aa01f3689d5d3f526178ac7ef752b9f176866cc4d"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/ChartSurface.h",
+      "sha256": "408481bfca065eaa6a0cec24381e1910437a7ae9dd4ad1d4f533ecc48f5fb674"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/DefaultFont.h",
+      "sha256": "718160352cd63138e75f6a44caf588e132c300da933e70d4cf8b395331ef06da"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCar.cpp",
+      "sha256": "aae7d48f9b8757c4bd8d08c45ab0fbd00f554dc8dd6858dfb9a7cdc991520518"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCar.h",
+      "sha256": "a8191720db77cd4e65b621fc4702d529946d5bfbbfce3c3a8a3e780e1bd80009"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLChart.cpp",
+      "sha256": "29f205aeac0704ae739cebd0d5eb892786eca392640a65d0ec10de9a7d3ee1fc"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLChart.h",
+      "sha256": "6fd61d543eb6df296719abdef4dd4e6bcff6f4d22805d6e822b54d91aa7ad3f3"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCore.cpp",
+      "sha256": "9af1114b7fd2d0e4b13368f8325999bbcdae277aecf0b0140d6a1fe26a4ded24"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLCore.h",
+      "sha256": "402a4ae148e91760f73fee27157a96df33b6d085d1b93340ba6979250443c80f"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLFont.cpp",
+      "sha256": "f9f451f169142a9f0567fb8e9b701751c7cfeca890ad404178825c1a139c425f"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLFont.h",
+      "sha256": "ed81f97590c49839b115ae7018989199961075404ab2c22a1cced17b458d2918"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLPrimitive.cpp",
+      "sha256": "0070edd49fee4478d428cb8c941553ff7ebf87235a02baa3b15016f52474e88a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLPrimitive.h",
+      "sha256": "5389ab5d1435b17984b0fb0018b80e597495007a1c954a8207f6a856e37fb180"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSimulator.cpp",
+      "sha256": "c2c8a2f8f73ea2ce3ed7dc0cb14cc5b1bdc096532f8e2986502b69deaaf7c657"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSimulator.h",
+      "sha256": "255cbb0a2a746b4a5574146de7e070abf8e2856eb63eb4f16deaf25d25e5d5b0"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSkyBox.cpp",
+      "sha256": "de0e19ec0b673ff5f19a128ec23e06cbf25fd8437bff83da98d22aab3477a0bd"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLSkyBox.h",
+      "sha256": "28b9c30290faff078523032f9155c9b26a44f27c17380fd34d1a6d8a5ddb1b86"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTexture.cpp",
+      "sha256": "0416296d0492b4b7c0c32b0f33731f2b85903b4ccaf091d746f40376ece767d5"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTexture.h",
+      "sha256": "f18b34e071fcd7191a29715347e868fb6e123e395b94a74d016a93f6783d7d71"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTrack.cpp",
+      "sha256": "e8c57f6a85e77e7ce006b473538f1e3598f01ecf3f2a482ea576df72bd7895ea"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PlaygrounD/Renderer/GLTrack.h",
+      "sha256": "ff353b1869cc2f40b9cbb7b4e2309f57ea5babfb6f94f56afdb218842ef9d3b1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/debug_libs.props",
+      "sha256": "16d329ab368d22dd6e0df26c9044f41e3bc60cb1b0b4bde79ec1f2e4c05669a6"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/debug.props",
+      "sha256": "4888f87a10c6f9b866f8a7a4bc49c044194636879c85e87b544fcdbc87989249"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/development_libs.props",
+      "sha256": "c3b3b02f098d0d9882d42e4bbe7ec84eb38a6e7eee2738e13e42cc1da82446a4"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/development.props",
+      "sha256": "78ada8c88f096888a207453c1b8f789950bbbf8efacb02cd10f4cbdd876090af"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/ProjectD.vcxproj",
+      "sha256": "591367e5d9a4c501856139d7fde8c0ffe0b1213cc374d30d56eb7d580aa50b0a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/ProjectD.vcxproj.filters",
+      "sha256": "0f323cd94da37fd0af736950e32e0ef22db6bcf299cf7ffaa65b079b7d9ce040"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/ProjectD.vcxproj.user",
+      "sha256": "a0c24e8908c9bcc5eb33cdd38762da3a86013fe87f0c681238ec4bcee56d15e1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AeroMap.cpp",
+      "sha256": "ad7462137adb5bb48e921af1300d5ca9c92969267daeac4390893357ab96e0aa"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AeroMap.h",
+      "sha256": "0e6eff12dc83f59e2d657d7066cc842be04ddaafcfa63ee3fe310690dce0127f"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AntirollBar.cpp",
+      "sha256": "11df3eb5f9c1e78213a0c632841216b865cbef0f46291cb38b9f4bfb40f23106"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AntirollBar.h",
+      "sha256": "fcd8bbc9329a738880d1b59b8bbb31bf7e5b11e0f6ec3064465563f87d28df8e"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoBlip.cpp",
+      "sha256": "bdb4068ef18aa1ae097ecdae99be0428b8a3b284ec257b575df59da9a734d4b5"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoBlip.h",
+      "sha256": "dca7376f00b109b77bce8c575725d10b5f58878a1962ed9740ce0426294aa7c6"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoClutch.cpp",
+      "sha256": "46219710b306454cb0d17bfe44ee95d84d5d64773e80ccf045a8541698efe5dd"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoClutch.h",
+      "sha256": "6b0eb40538c2ba13bf881f93757e7862e4c35892ac7b641731dc332f5d92a3c1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoShifter.cpp",
+      "sha256": "e6b3fb043cfb4a828dd52f671e43a389f1c06c94243acc71b0ddb0545e3e7293"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/AutoShifter.h",
+      "sha256": "b129dbc45ab9a53b20cdb092f39e63290932042d1c9095107a3edb4f70e9e052"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrakeSystem.cpp",
+      "sha256": "4e1bbb1e45aa5b241b236d54adc046745b09b54c1df854923a56f69e58012675"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrakeSystem.h",
+      "sha256": "e2fe488857c52978c4cdcf1cc9fe7415763851d6bd70f97f38ea86e0e1aaae18"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushSlipProvider.cpp",
+      "sha256": "b539d83eeb4d0f2ba750ad8f5d6f32d275d9734410f33617818b046f3fb9aee7"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushSlipProvider.h",
+      "sha256": "e2acae66b5c278a4f2987f9d260c9bfb9cf1c3e9572cee72477163f04dd5f105"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushTyreModel.cpp",
+      "sha256": "f4549729b61a8b759aec5457fba9c67e66325211b8b800b66b107f8c230f8064"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/BrushTyreModel.h",
+      "sha256": "0b05b1aaaaca0b505968288e24a369a9f1b5226471ed2ba1b7555a4d9fa98d22"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Car.cpp",
+      "sha256": "0330e1f96e7666f58dffcb8f712a35eb809c69017edd67691890ca89249ff1aa"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Car.h",
+      "sha256": "209eb85a0eaca72a1333a3401e2417a1a53a1efe6aa02fc7fb8e9142c4578a1b"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarColliderManager.cpp",
+      "sha256": "ca03e4c794efa90a54a70cf400b86493d081226818456892c7852b1b1ed5c560"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarColliderManager.h",
+      "sha256": "e57812bae21dda67cd2e52ed6816a986d30197fcd2b86ab9ad7936b5bad056ef"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarCommon.h",
+      "sha256": "65176c0f48a1475b97042deec86b8e8991b0f923aeefed9d222b85b2fdb3bbc2"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarControls.h",
+      "sha256": "28e059f36d840936ed112b4109936984518993ea3a4b18241d33dff789620882"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarDebug.h",
+      "sha256": "ba339e827bda7359487454c25bb6d66a151cd4724b91bf5bf4177999dc6a5d74"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarImpl.h",
+      "sha256": "346ce10126e4bcce87813c3fd80861b51f77822d1305fb67d7a4bf1315b84383"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarSenseiData.h",
+      "sha256": "81aecdcbb7c8b94e5878821c5dbad61ce547f5219ab6a5af507992e0efd50401"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/CarState.h",
+      "sha256": "bd98f314c62f1ca83ee2ade242c4e1c635e810c1d744042d799d78e2af500b0a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Damper.cpp",
+      "sha256": "281a54aa7ba5af59e530751a30028b1c65cfafd6ac91b686c848eccbb70e6e51"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Damper.h",
+      "sha256": "ec9c245b21d9b517d8f75508b65df03e25917f15f483231af6345c7442815740"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Drivetrain.cpp",
+      "sha256": "afe5028ead4fa2b1b4a515f5f2889e5aca5c0fd81853ebc0312c11cdb6e3f7e7"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Drivetrain.h",
+      "sha256": "558380e0ab40d81e78c0585a38f4e117e6e8279f4af73bc56e17189765c5b281"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/DynamicController.cpp",
+      "sha256": "302c97672ff0c1d9bd70804f231153dc0c46c9c4e13b4190cc05448ad2efb153"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/DynamicController.h",
+      "sha256": "26d235202c95ad6365bc14907a7d3073b27d7c15de3ca6aa3fde2d8cdaeb129a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Engine.cpp",
+      "sha256": "fb771b140c471af9c7fca00dc22b8aab12f4778c490aaf7248d2cdeb143c5a02"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Engine.h",
+      "sha256": "0818a148de7bf6cbe278ce4a3e969ce8da87ab94a8ebf7852e8df1ab27a2b213"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/GearChanger.cpp",
+      "sha256": "360f7a768017c4e44d3e9425e61387da859f82a03e10bd89e42b450408d5517c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/GearChanger.h",
+      "sha256": "b8265c8c1cf45ae4fc52b40618ac5eb1528ed05c6ff5e0cdb2c3c30a9f902cae"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/HeaveSpring.cpp",
+      "sha256": "5b2f4a514ff8c8747038ae95ea7e71159991c4ac4201a440b36eaefd439548df"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/HeaveSpring.h",
+      "sha256": "3d3051f23455ca5ab7dc540ed22bbc5f5545a0828550ed7ee2871e78a37e8697"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ICarAudioRenderer.h",
+      "sha256": "d90e0d0306df90ac05961e7ece06d19caaeb8ac32221449775920df284e8ec7d"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ICarControlsProvider.h",
+      "sha256": "b5a9ad6176b067a9517d9ad31bebf55558ffe0440133baaadf7fb05a20d446c3"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ICoastGenerator.h",
+      "sha256": "eaf2ac3b3765569722f340ce3f5f2d5212fa11400b404758faa038c4f6cac3e3"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ISuspension.h",
+      "sha256": "cc66aa01a37b9b0490fb7a12664b5b517f5e54450169893fb5297803d955e965"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ITorqueGenerator.h",
+      "sha256": "c9e7d3158ee063b49122509a31377a811a00e537b2c287e84265f3ccfde5d086"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ITyreModel.h",
+      "sha256": "4e83d9bbeecaa54e2d6e62bfc88e85c3f62ade560119f2a87b7dd0df21f006cc"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ScoringSystem.cpp",
+      "sha256": "e421c4710b9bd9d39567535241d56c43f9a4ff8cf0151475b887ab349d1f898c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ScoringSystem.h",
+      "sha256": "7717889e1f2762a5bf9c1983ad08fa5e68be705dde91a686302122204c0a1649"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SetupManager.cpp",
+      "sha256": "eb6c286d435771addd24fe605f9438673bad5872ba6b6fb75f90eae50a954665"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SetupManager.h",
+      "sha256": "962c2f42076906403ff085c53c599ce5fcf1fe47a423f99a4fecb4a3e088fff6"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SteeringSystem.cpp",
+      "sha256": "ab0cba30f1872cfe898f6e722cfe342c54f26fab674b7e1bd9b9d214eee470c7"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SteeringSystem.h",
+      "sha256": "e0ffa4296f1d51ec79972dc72542fb5479821c4a2b8030d88d3dde79c062af0c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionAxle.cpp",
+      "sha256": "a952578140dccb8fea8edef6df90ebf4d9d4dfd223d78df124d476c6fd7d75f1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionAxle.h",
+      "sha256": "b4d4fbd71aa7374fc644404b35cde0de120022249dfe0293bf2cefc8f83e01f0"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionBase.h",
+      "sha256": "bda678cfed09e4681be4da7f435d529a2ccee4988b8f2f847ad25ce0ef7ceef4"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionDW.cpp",
+      "sha256": "1ae87c725aadb647acf063b9c02dc7cd7e052427647a6dc208bc579e50595080"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionDW.h",
+      "sha256": "074dff8747c9f0ecfcbc405429b91349390925a234eb0d62222097378c9bce16"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionML.cpp",
+      "sha256": "36bbcafcbcad92185ef34ba16d7089eadd4dbb9cee14d5cfea828cf2370c196c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionML.h",
+      "sha256": "925aef1caafd75878222b68bf148bd523af35021e2052369ee5c46c08091d764"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionStrut.cpp",
+      "sha256": "cf79862d5c9bfd2ebad7d34e83d5450fe7e33a126f5d701393fb52f9f7ac053a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/SuspensionStrut.h",
+      "sha256": "c93fb5036b587e83d14be3d380bd3f4fadbe07a314680a40b844fd6db0cc021a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ThermalObject.cpp",
+      "sha256": "edb2d8f32326f1c8894ea2aae1b76ed86e04d44c264c6cc29df7a9c7e0c3df35"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/ThermalObject.h",
+      "sha256": "5bcce75435156442f027083b0b133b6864b34ebd0adc61c988a72bd300af71a4"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Turbo.cpp",
+      "sha256": "746e9bfa97c0beff734c43af30395895fa64062d23faa6721753338abf3637ac"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Turbo.h",
+      "sha256": "fefedef600604f6664cc91908cc9afc9c3af79109d6f942e5e117542245e5f26"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Tyre.cpp",
+      "sha256": "8f5dab3d238c1978dd3dc4b1484440f647d7041156ab8a6439ecbe3f0b5597da"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Tyre.h",
+      "sha256": "c649d1779a5c5c15f984d0c7fc4caa22625f77a78066d0441d23ccaa1d87659b"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreCompound.h",
+      "sha256": "a820ff35e1b6af276653e6d79398e7b634fa5fc0bf7afa9daf1088ca6e3b9237"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreForces.cpp",
+      "sha256": "d3acaa7c8b27046a74adaef29f7d90315ccbd667cf2d40268e93a6a658f7fbbb"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreModel.cpp",
+      "sha256": "367d344476b882436bfe4d17c247f170a212a5660512eef3d4db9dcc0b30f30f"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreModel.h",
+      "sha256": "f673c5bdcf6783c453d6291613d8fab31996ea28126fb729784b3b8264a9cae5"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreStatus.h",
+      "sha256": "f7ccd230c9f43a1347b9a14e79fe2deb902f762e793b98637be74970521ffb48"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreThermalModel.cpp",
+      "sha256": "f3fafdc85ae84dfaa01ce29316a48c4f164fed7d60d51fce6c4da493d70da92b"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreThermalModel.h",
+      "sha256": "44786fd6bc086f65028fa1173d4fb6faa0e1727b7a9e9d47874bfd8380104b02"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/TyreUtils.inl",
+      "sha256": "0173c76badaa58622ff400a844311ebca53a539a9257c91c4fb2331a36b357cd"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Wing.cpp",
+      "sha256": "fb308c0f2ae94ab3247989cd4784dc3245ff5f2e70b5b654f4d204f626c24328"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/Wing.h",
+      "sha256": "9c06a2447d2155b77779f9736adf35b6a44157d13788516e5fcd9a4f9f8faca1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/WingDynamicController.cpp",
+      "sha256": "e5e8144fd555a98760b1b2236187af5907a0052b137c4d1db21678df4d285b60"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/WingDynamicController.h",
+      "sha256": "bd17fded8797a051c58238b1586b548a9b9dd3f077ba6c43e2b93444a4a6663a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/.vscode/c_cpp_properties.json",
+      "sha256": "e6ad23ec81916c7229439e5c9ce7bf7400951d819d1f95c47ad2af6b7ab64d61"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/.vscode/launch.json",
+      "sha256": "fe2dd6c478ebaa7b857810df3b449cc9611ac8491d5dd90449571874b5eebea6"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Car/.vscode/settings.json",
+      "sha256": "26a6371e290210b131726cb26759344d98591d2ac5df40ed7e67ec2a8745f9c1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/ABIValidator.cpp",
+      "sha256": "0a52901359709884482c86cd21d5dd3b0a97ec594163667769378ecdbb9a1949"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/ABIValidator.h",
+      "sha256": "5dbe85fd9cb238da0f75ba478542cd2a2ae1fd146d2d2438711492c95f516b06"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Common.h",
+      "sha256": "4dcba5a9fc20e23c713fcba00f2e6f5c1c74cfd17ee70f50b8c576797cd3530f"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Core.h",
+      "sha256": "22dfe801d29cf10ba04b0ad1da412e4236890d9fd48339ce1283eaa16908f450"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/CubicSpline.cpp",
+      "sha256": "0f4005b0a6a658b6042f348ddd56a62ffbe02589a78a9365aa5388c061ea3a09"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/CubicSpline.h",
+      "sha256": "96781f2df7c2dbfac358b4bd5c13f7b0eb24b1b2d4dd3fa4d9fdc724b86fac53"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Curve.cpp",
+      "sha256": "96a1b4c0e4709d3796054870d9759b7aa6d960290377434f0e091b3aac6c0289"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Curve.h",
+      "sha256": "f75bae49da85dc5d32facd62979f721053ae3d028a3c185dc066b1ac63864db5"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/DebugGL.h",
+      "sha256": "9cc50088cb27f68f1373f44cd882e452b2236cedbe4dd3a4c6b4d51f57f50b55"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Diag.cpp",
+      "sha256": "b32bb4b49a1b57c973f41d5656b6e3debcbef78a4f182dee63a231bfcd5b1f82"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Diag.h",
+      "sha256": "01c78891edd7c2a5593826716551918292651f6bf1003bb1f70781dd18373a44"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Event.h",
+      "sha256": "e424bd0b27c1610d437c6356648f3313eb2b8df3f0ac846f0b2ee6f757837443"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/INIReader.cpp",
+      "sha256": "f124776baf11a0421df039816b7a7743b66f278a132826fdda41738744f643f1"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/INIReader.h",
+      "sha256": "41d386428f25e495719f177ebc472a2b47d7d3fe160fd939698c79a5bedb29c9"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Math.cpp",
+      "sha256": "75d3b7130f1e2fcd58bd6214a2b56f02cde075d7e951e92b906a6436ca1be19e"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Math.h",
+      "sha256": "cd5ef46c7b96777ee706997544b1a0aa495b902c143d0bf48210007c989e4611"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/OS.cpp",
+      "sha256": "b1f0c313c1145f7101c5dc440abbee754069a7b9e017d0f68073c6509a1c86a2"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/OS.h",
+      "sha256": "de16e77d3c319a1d879f4eca5995ddc1ef0d5b00c303794105a07ea0974387be"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/PIDController.cpp",
+      "sha256": "dba0e8ab17fa23002e08c0faedcdc442b1f389e8f67d2934c4ecc7fad013d4d8"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/PIDController.h",
+      "sha256": "4537fb18ff30f2f742040f0e75da0a437fcd95d47f90df87710596909b6c1001"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/SharedMemory.cpp",
+      "sha256": "b09273f7b976e8b21da074942781bd071817f53512ad8e08d3572548d3882f21"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/SharedMemory.h",
+      "sha256": "0f993eb43781acccaf0dc86859945bdd84db001e87eefa4cead4e21745c6ad50"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/SignalGenerator.h",
+      "sha256": "ee2ba0d44bffc71be70795dc02a36ce51b8cf3f5f6c0c0de5c4e12eab10a8fdc"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Speed.h",
+      "sha256": "227d3f9bf1f5e62ca31adafff40bfd36203ae33fdc46d4af5037d7219e190c00"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Spline3d.cpp",
+      "sha256": "48c88cbde03accd407107bee23982d8cf86313479f0cf4aef499b3f0803002a3"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/Spline3d.h",
+      "sha256": "858dc6472141acab0e5bef0741df05f86d802ea1d2d9510df0db3e9c6449521c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/String.cpp",
+      "sha256": "0d9fb0b1e3063fb976b2c7e69f6716318573dea570b7ab8b1e157eaa14e8b664"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/String.h",
+      "sha256": "7d430807ec540e510b5835eee39348953606a3816de2fb9e43f2a6d58822e76a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/tkspline.h",
+      "sha256": "c004a8e0b8b5dc058725e84b0f74ad56d5f9cdd07beb4ac82eb1a31b72553208"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Core/VertexHash.h",
+      "sha256": "6e2366ba1eecedb133d127f1815e561066c9011bbbaa1fcc19b9b6d196baf852"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ICollisionCallback.h",
+      "sha256": "04f4bedd9d48e5b8e5ed8ef6bd0859c5f39e3d192d25a0a234156ea57b493bfb"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ICollisionObject.h",
+      "sha256": "5adf7f5e2f0e69a3e48042a10feec812324359595e51f72f9c07b0787151f786"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IJoint.h",
+      "sha256": "97c9a3e42c7632dc0a14d1e65e5280a0acab24d29dd25de6ffe534bbe72afb4b"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IPhysicsEngine.h",
+      "sha256": "1fdd2ca8e693a90f5d2f3d33cf7ea844506ae2eb22209112f7cfe9957bc46f99"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IRayCaster.h",
+      "sha256": "78d1a442c06673e37cdcb10ad9063ea43a37a178026e12c762df8b31e1d209a8"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/IRigidBody.h",
+      "sha256": "4ab8350f0b788b416d393f4f36efdbaa3d8e4736f1c937c4473cd43881104ce8"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ITriMesh.h",
+      "sha256": "c5c33c1bfa6b191f2ec53cf822faae55e419acc3e72541e5e64a619053b351a5"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/PhysicsCommon.h",
+      "sha256": "9567e78de6f0b847ed01d35a4250d752e84d21d0b4a17d16e6bd9d4afd1db10c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/PhysicsFactory.cpp",
+      "sha256": "205243f6d7c96f8bb4a0612b0c1a58d6ce50af3db0df24c7f135d6a1a6534259"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/PhysicsFactory.h",
+      "sha256": "905a745dda3eee9113170baadbbe0ab027c4f2e76edab0bceec14736e4c1b08c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/CollisionMeshODE.cpp",
+      "sha256": "8e15577e36fd9c6e94212ddd826c15bdbc4e40ab4c2e201d9e0e7a995150e34c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/CollisionMeshODE.h",
+      "sha256": "50c5fc4820faa8f2cd164bfc9b06766c42366d7ccc6929f149457881b10ebd42"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/FlagsODE.txt",
+      "sha256": "cb1365023e007c91a3689aa4f832607de2069435a40ea861699bb9c58d63a3e2"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/JointODE.cpp",
+      "sha256": "3c505bdc6f37dc061fa4948d1c8bb07951094d93ac4d66c7aff9015b15e4f3ee"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/JointODE.h",
+      "sha256": "be246617a7763ca08b78458698769de55740539db70f39bfec598044c2e4a579"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/PhysicsEngineODE.cpp",
+      "sha256": "61f3a646ed9eab87e4c2698e59ef6e238c19b396693a867a7319b97223d795a3"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/PhysicsEngineODE.h",
+      "sha256": "bc894ae2d52417308b44b9646f570deacd0367721debb21ef502c930c6c0bfa0"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RayCasterODE.cpp",
+      "sha256": "4a0e487279131e3b5969c492d0953ed4d23444dd5f8a4e5cdaaea67c7f1ef599"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RayCasterODE.h",
+      "sha256": "85b4a117c0fc58ddda0a43ad01a64fcca44f5befbf5d20f25723db47de6e1538"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RigidBodyODE.cpp",
+      "sha256": "227bb6bf4e7dcf0cccb21e8dfab84eabd95548f520b44983fc44abf5a8a9eb2f"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/RigidBodyODE.h",
+      "sha256": "698dde8d019cf331f5f7b3016081423542f1032dca9ca5fe6eb4b539bf16cc50"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/TriMeshODE.cpp",
+      "sha256": "b908e2a50800d93ef0a49973b9ae89abe395958c0f3a1d97edcb33601f069a16"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Physics/ODE/TriMeshODE.h",
+      "sha256": "20cb85db47721c782dddb37adc8c3a907f66de80213908c23b48f9506268a4a0"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/ITrackRayCastProvider.h",
+      "sha256": "c1a11d78c7a5ba4fe09ed6a46a663da98f9aba673214b3e4a85cd0eb1c6ed39c"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Simulator.cpp",
+      "sha256": "9c9dd2f162950fd2d91f41adb8fcdaf14344eb49c0a0db4f30728bf419823c5d"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Simulator.h",
+      "sha256": "c6962460e470796cc551a3e920173a3395b09e351491ad71d4eed1f83a7432f8"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/SimulatorCommon.h",
+      "sha256": "a40804eea04fcebab2906301421715cb2d7b19d948aca7b3d92ee7d9473b19dc"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/SlipStream.cpp",
+      "sha256": "1500397614fa969dcafe904567da4c373d725d00d6781accfd42359647891c03"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/SlipStream.h",
+      "sha256": "b035bba9432f0576d9eb5b0d6624f34329e0646cfd2156303b6ced01a81e1bfa"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Surface.h",
+      "sha256": "440f10cc13446f791d610930469d63ac5427b02f295725a085af5d06b32b751a"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Track.cpp",
+      "sha256": "23b1d1cdcbf16248f2de0e903d11defd0525b1eecd569236ce302cf6d0a6ff30"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/ProjectD/Sim/Track.h",
+      "sha256": "68d3185dc2d654cfc2f6a9f62e6a678158f72885e2001d2417865865e4565876"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/dllmain.cpp",
+      "sha256": "b819d5d4808f66496fb907650a09615d5f330297853217af226d11d7acc5874f"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.cpp",
+      "sha256": "001682b07ee6e66ef539ad2754d1b1408be97feaf30e46eb3a9aa19906ed42a9"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.vcxproj",
+      "sha256": "6566eff5f4aeb3c831bca8daa9629a34328cec4b45f9b3314100d7696df0fa4b"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.vcxproj.filters",
+      "sha256": "5617d59193ddcb4b4a10601306bcd0acadce4cf66b75b361386a101b477019a3"
+    },
+    {
+      "path": "platform/model/projectd-core-develop-src/PyProjectD/PyProjectD.vcxproj.user",
+      "sha256": "502b4146cd17cbb876ce3d8e540ca2f8624cd0cf1522e781d3d1ea25ff642d11"
+    },
+    {
+      "path": "platform/bin/PyProjectD.pyd",
+      "sha256": "516ca2829582a5bc5485f364365919d5de9ecb583c5c654477a2d79c45716506"
+    }
+  ],
+  "preserved_preexisting_change": {
+    "path": "platform/model/exp2_case_study2.py",
+    "previous_manifest_sha256": "866f69984096bc0f97640de1693b95295d0144c6d874d2a88b5a12ec1170ef6a",
+    "current_sha256": "b15666359bbb0ca8c35d2873e45b9988f8e0548a41f1cb12e54c1bd659aaf103",
+    "note": "Existing ten-step condition preserved; recording provenance not established"
+  }
+}

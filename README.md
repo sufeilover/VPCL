@@ -1,461 +1,73 @@
-# VPCL
-This repository provides the source code, modified experiment files, runtime interface file, and representative experimental data for a virtual–physical closed-loop shared driving platform based on Assetto Corsa (AC) and `projectd-core`.
+# HUIYU_PAPER
 
-The platform is used for:
+Code and processed research data for **A Virtual-Physical Closed-Loop Platform for Prediction-Informed Driving Assistance**.
 
-- AC-side real-time vehicle-state acquisition;
-- model-side hot-start synchronization;
-- short-horizon vehicle-state prediction;
-- shared-driving control experiments;
-- finite-strategy dual-preference / approximate-Nash analysis.
+This local release candidate organizes the platform and paper evidence by chapter and case study. The platform connects ongoing Assetto Corsa (AC) execution to telemetry-based initialization of a separate ProjectD-Core model and to prediction-informed application feedback.
 
----
+## Start here
 
-## 1. External Model Source
+Python 3.10 or later is required for the offline scripts. From this directory:
 
-The vehicle physics model is based on the open-source `projectd-core` project.
-
-Please download the original model source code from:
-
-```text
-https://github.com/wongfei/projectd-core
+```shell
+python -m pip install -r requirements-analysis.txt
+python tools/verify_package.py
+python reproduce.py all
 ```
 
-After downloading the source code, please build the project using **Visual Studio 2019**.
+Offline outputs are written to `outputs/`; rerunning overwrites those outputs, not the packaged data. No simulator, network connection or steering device is started by this command. See [reproduction instructions](docs/REPRODUCING.md).
 
-Recommended local project root:
+## Paper organization
 
-```text
-projectd-core-develop/
-```
+| Paper content | Directory | Included material |
+|---|---|---|
+| I-II: motivation and related work | docs/ | Platform scope and dependency documentation |
+| III: architecture | platform/ | AC interfaces, packet mapping, model-side experiment entry points |
+| IV: reproduction assessment | chapters/04_reproduction/ | Five metrics, 1-500-step curves, normalization and preference sensitivity |
+| IV: AI driving conditions | chapters/04_aipush/ | Run and condition summaries, preprocessing code |
+| IV: processing time | chapters/04_timing/ | Four-configuration timing summaries and selected records |
+| V-A: visual feedback | chapters/05_case1_visual/ | Persistence summaries, analysis and timing |
+| V-B: control-oriented assistance | chapters/05_case2_control/ | Whole-circuit run summaries, comparison and timing |
+| V-C: human-in-the-loop | chapters/05_case3_human/ | Anonymous run summaries and preprocessing code |
+| VI: interpretation | docs/ | Reproduction scope and known implementation differences |
 
----
+## What can be reproduced
 
-## 2. Important Notice on Third-Party Files
+The portable entry point redraws the Section IV metric/preference figures, rebuilds Case 1 persistence evidence, recomputes Case 2 group comparisons, and summarizes the 30 anonymous human runs. It uses packaged processed data, not the original high-volume telemetry workbooks. The original analysis scripts are retained under `source_scripts/` for provenance; some require external raw data or local installation settings and are not the portable entry points.
 
-To avoid redistributing third-party or potentially copyrighted files, this repository does **not** include the full original copies of:
+## Runtime and release status
 
-- Assetto Corsa vehicle assets;
-- Assetto Corsa track assets;
-- original ACTI plugin package;
-- original unbound plugin package;
-- original `projectd-core` source repository;
-- commercial game content, models, textures, audio, or other proprietary resources.
+The real-time platform requires Windows, a licensed AC installation, telemetry/control plugins, a compatible PyProjectD build and separately supplied vehicle/track resources. See [platform setup](platform/README.md). The current runtime files are candidate source snapshots; the recording-version and trigger discrepancies in [release checks](docs/RELEASE_CHECKLIST.md) must be resolved before claiming exact runtime replication.
 
-Users should obtain all third-party software, plugins, vehicle files, and track files from their own legal sources.
+## Model source and runtime interface
 
-This repository only provides files required to reproduce the research workflow, such as:
+The model source and runtime interface from the first-submission VPCL repository are now included alongside the revised analysis package:
 
-- user-modified source files;
-- AC-side Python scripts;
-- model-side Python scripts;
-- experiment scripts;
-- representative experimental data;
-- setup instructions.
+| Original VPCL directory | Directory in this package | Purpose |
+|---|---|---|
+| `Model/code/projectd-core-develop-src/` | `platform/model/projectd-core-develop-src/` | C++ source overlay, including ProjectD, PyProjectD and PlaygrounD |
+| `Model/bin/` | `platform/bin/` | Supplied `PyProjectD.pyd` runtime interface |
 
----
+These files are preserved unchanged. The overlay is not a complete standalone build tree: obtain the matching [ProjectD-Core project](https://github.com/wongfei/projectd-core), retain its dependencies and build files, then copy the overlay contents into its **`src/` directory**, not its root. For example, `ProjectD/Car/Car.cpp` belongs at `src/ProjectD/Car/Car.cpp`. Back up the upstream files first. Rebuild after changing C++ code; otherwise Python continues to use the old compiled implementation.
 
-## 3. Repository Structure
+The original setup used Windows, Visual Studio 2019 and Python 3.10. The supplied `.pyd` must match the Python ABI, architecture and dependent DLLs on the target machine; its compatibility with the revised experiment scripts has not been runtime-tested here. If incompatible, build locally and put the resulting interface and required runtime DLLs in `platform/bin/`. Source and binary were copied from the same repository, but a source-to-binary build match has not been established.
 
-The current repository is organized as:
+## Running the real-time platform
 
-```text
-VPCL/
-├─ AC/
-│  ├─ acti/
-│  ├─ code/
-│  └─ unbound/
-│
-├─ Model/
-│  ├─ bin/
-│  └─ code/
-│
-├─ Section 4 Data/
-├─ Section 5 Case Studty2 Data/
-│
-├─ .gitattributes
-├─ LICENSE
-└─ README.md
-```
+1. Install Assetto Corsa and obtain vehicle/track resources legally. These assets are not included.
+2. Install the original ACTI and unbound/control-plugin dependencies separately. Back up plugin files before applying corresponding modified files. This package supplies `platform/ac/unbound/Unbound.lua`; it does not include a complete ACTI installer or a modified ACTI directory.
+3. Prepare ProjectD-Core and its runtime interface as described above. Supply the model content under `platform/content/`, following the folder names expected by the model and the selected entry point.
+4. Install `requirements-runtime-windows.txt` in a suitable Windows environment. Configure vJoy and the steering device when using that input pathway.
+5. Check vehicle/track identifiers, local paths, telemetry packet layouts, ports, trigger settings and model API compatibility before running. See [platform setup](platform/README.md) for the paired script names.
+6. Start AC, start the selected AC-side script under `platform/ac/`, and then start its matching model-side script under `platform/model/`.
 
-Folder descriptions:
+The offline `reproduce.py` workflow is separate: it does not load `PyProjectD.pyd`, start AC or control a device. Adding the original model files does not replace the newer Python entry points or the chapter-organized processed data.
 
-- `AC/acti/`: modified ACTI-related files only. The original ACTI plugin should be installed separately.
-- `AC/unbound/`: modified unbound-related files only. The original unbound plugin should be installed separately.
-- `AC/code/`: AC-side Python scripts.
-- `Model/code/`: modified model-side C++ files and Python experiment scripts.
-- `Model/bin/`: optional runtime interface file, such as `PyProjectD.pyd`, if provided.
-- `Section 4 Data/`: representative experimental data used for Section / Chapter 4.
-- `Section 5 Case Studty2 Data/`: representative experimental data used for Section / Chapter 5 Case Study 2.
----
+## Acknowledgments
 
-## 4. Required Software and Plugins
+We thank the developers and maintainers of [ProjectD-Core](https://github.com/wongfei/projectd-core), ACTI, Custom Shaders Patch and unbound for the software and interfaces used in this research. We also acknowledge Assetto Corsa and the third-party libraries on which the model and its tools depend. Their authors retain ownership of their work; applicable notices and license terms must be preserved.
 
-Before running the experiments, please prepare the following software and plugins:
+The first-submission README and license are retained in [docs/legacy_vpcl/](docs/legacy_vpcl/) as historical documentation. Its old paths, experiment descriptions and statements about excluded files are superseded by this README for this package. The archived license is not automatically applied to all newly packaged data or third-party code.
 
-1. Assetto Corsa.
-2. `projectd-core`.
-3. Visual Studio 2019 and python 3.10.
-4. Python environment compatible with `PyProjectD.pyd`.
-5. ACTI plugin.
-6. unbound plugin.
-7. Required Assetto Corsa / projectd-core track and vehicle files prepared from legal sources.
+No GitHub remote has been created. No blanket open-source license is applied to this package yet: the supplied local ProjectD-Core license restricts use to non-profit education. See [third-party and licensing notes](docs/THIRD_PARTY.md). Code ownership and the license for the authors' code/data need confirmation before public release.
 
-The ACTI and unbound plugins should be installed from their original sources first. After installation, replace only the corresponding files using the modified files provided in this repository.
-
-It is recommended to back up the original plugin files before replacement.
-
----
-
-## 5. AC-Side Files
-
-The AC-side files are located in:
-
-```text
-AC/
-├─ acti/
-├─ code/
-└─ unbound/
-```
-
-### 5.1 Modified ACTI Files
-
-The modified ACTI-related files are located in:
-
-```text
-AC/acti/
-```
-
-Please install the original ACTI plugin first. Then copy the files in `AC/acti/` into the corresponding ACTI plugin folder and replace the original files where applicable.
-
-### 5.2 Modified unbound Files
-
-The modified unbound-related files are located in:
-
-```text
-AC/unbound/
-```
-
-Please install the original unbound plugin first. Then copy the files in `AC/unbound/` into the corresponding unbound plugin folder and replace the original files where applicable.
-
-### 5.3 AC-Side Python Code
-
-The AC-side Python scripts are located in:
-
-```text
-AC/code/
-```
-
-These scripts should be run first. They are responsible for:
-
-- reading AC-side vehicle data;
-- sending real-time vehicle states;
-- communicating with the model-side prediction / control process;
-- supporting the virtual–physical closed-loop experiments.
-
-Typical scripts include:
-
-```text
-exp1_exp2_casestudy1.py
-exp2_casestudy2.py
-```
-
-Their usage:
-
-- `exp1_exp2_casestudy1.py`: AC-side script for Chapter / Section 4 and Chapter / Section 5 Case Study 1.
-- `exp2_casestudy2.py`: AC-side script for Chapter / Section 5 Case Study 2.
-
----
-
-## 6. Model-Side Files
-
-The model-side files are located in:
-
-```text
-Model/
-├─ bin/
-└─ code/
-```
-
-### 6.1 Model-Side Code Replacement
-
-The modified model-side source files are located in:
-
-```text
-Model/code/
-```
-
-Copy the files inside `Model/code/` into their corresponding paths in the downloaded `projectd-core-develop` source tree and replace the original source files.
-
-The replacement should follow the same file names and directory structure as the original `projectd-core` project.
-
-After replacing the files, please **rebuild the project in Visual Studio 2019**.
-
-This rebuild step is required. Otherwise, the modified C++ files will not take effect.
-
-### 6.2 Runtime Binary File
-
-The runtime interface file is located in:
-
-```text
-Model/bin/
-```
-
-For example:
-
-```text
-PyProjectD.pyd
-```
-
-If `PyProjectD.pyd` is incompatible with your local Python version or system architecture, please rebuild it locally from the modified `projectd-core` source code.
-
-Please ensure that `PyProjectD.pyd` matches:
-
-- your Python version;
-- your system architecture;
-- your local build configuration.
-
-If import errors occur, rebuild `projectd-core` locally and use the locally generated `PyProjectD.pyd`.
-
-### 6.3 Model-Side Experiment Scripts
-
-The model-side Python experiment scripts should be placed under the corresponding `pyprojectd` folder after the replacement step, for example:
-
-```text
-projectd-core-develop/pyprojectd/
-```
-
-Main experiment scripts:
-
-```text
-exp1.py
-exp2_case_study1.py
-exp2_case_study2.py
-```
-
-Their usage:
-
-- `exp1.py`: source code for Chapter / Section 4.
-- `exp2_case_study1.py`: source code for Chapter / Section 5 Case Study 1.
-- `exp2_case_study2.py`: source code for Chapter / Section 5 Case Study 2.
-
----
-
-## 7. Required Track and Vehicle Assets
-
-This repository does **not** include track or vehicle asset folders.
-
-To reproduce the experiments, please prepare the required track and vehicle content from your own legal Assetto Corsa / projectd-core installation and place them under the corresponding local `projectd-core` content directories.
-
-Typical local paths are:
-
-```text
-projectd-core-develop/content/tracks/
-projectd-core-develop/content/car/
-```
-
-If your local `projectd-core` directory uses a different vehicle-content folder, such as `content/cars/`, please follow your local project structure.
-
----
-
-## 8. Experimental Data
-
-Representative experimental data are provided for result verification.
-
-### 8.1 Section / Chapter 4 Data
-
-The data for Section / Chapter 4 are stored in:
-
-```text
-Section 4 Data/
-```
-
-This folder contains the data used for the Chapter / Section 4 experiments, including model-side prediction / validation outputs and related processed results.
-
-### 8.2 Section / Chapter 5 Case Study 2 Data
-
-The data for Section / Chapter 5 Case Study 2 are stored in:
-
-```text
-Section 5 Case Studty2 Data/
-```
-
-This folder contains the data used for Chapter / Section 5 Case Study 2, including shared-driving / strategy-evaluation outputs and related processed results.
-
-### 8.3 Data Usage Notes
-
-- The included data are representative experimental data, not a complete dump of all intermediate debugging files.
-- These data are provided to support result verification and reproducibility.
-- If new data folders are added, please keep their names consistent with the corresponding manuscript sections or case studies.
-- When reproducing figures or tables, check the relevant section data folder first.
-
----
-
-## 9. Recommended Setup Workflow
-
-The recommended setup workflow is:
-
-1. Download `projectd-core` from the official GitHub repository:
-
-   ```text
-   https://github.com/wongfei/projectd-core
-   ```
-
-2. Open and build `projectd-core` using **Visual Studio 2019**.
-
-3. Install ACTI and unbound plugins in Assetto Corsa from their original sources.
-
-4. Replace the corresponding ACTI and unbound plugin files using the modified files provided in:
-
-   ```text
-   AC/acti/
-   AC/unbound/
-   ```
-
-5. Copy the modified model-side files from:
-
-   ```text
-   Model/code/
-   ```
-
-   into their corresponding paths in:
-
-   ```text
-   projectd-core-develop/
-   ```
-
-6. Prepare the required track and vehicle content from your own legal installation and place them under the corresponding local `projectd-core` content directories.
-
-7. Rebuild the modified project again using **Visual Studio 2019**.
-
-8. If a compatible `PyProjectD.pyd` is generated or provided, place it in the corresponding runtime / build output directory.
-
-9. Start Assetto Corsa.
-
-10. Run the required AC-side Python script from:
-
-    ```text
-    AC/code/
-    ```
-
-11. Run the corresponding model-side Python script from:
-
-    ```text
-    projectd-core-develop/pyprojectd/
-    ```
-
----
-
-## 10. Running Order
-
-The running order is important.
-
-Please follow this order:
-
-```text
-Step 1: Start Assetto Corsa.
-Step 2: Run the required AC-side Python script from AC/code/.
-Step 3: Run the corresponding model-side Python script from projectd-core-develop/pyprojectd/.
-Step 4: Start the target experiment or case study.
-```
-
-Examples:
-
-### Chapter / Section 4
-
-```text
-Run AC-side script: AC/code/exp1_exp2_casestudy1.py
-Run model-side script: projectd-core-develop/pyprojectd/exp1.py
-Use data folder: Section 4 Data/
-```
-
-### Chapter / Section 5 Case Study 1
-
-```text
-Run AC-side script: AC/code/exp1_exp2_casestudy1.py
-Run model-side script: projectd-core-develop/pyprojectd/exp2_case_study1.py
-```
-
-### Chapter / Section 5 Case Study 2
-
-```text
-Run AC-side script: AC/code/exp2_casestudy2.py
-Run model-side script: projectd-core-develop/pyprojectd/exp2_case_study2.py
-Use data folder: Section 5 Case Studty2 Data/
-```
-
----
-
-## 11. Suggested Local Directory Structure
-
-After setup, the local `projectd-core` directory may look like:
-
-```text
-projectd-core-develop/
-├─ bin/
-│  └─ PyProjectD.pyd
-│
-├─ content/
-│  ├─ tracks/
-│  │  └─ [required track folder]
-│  └─ car/
-│     └─ [required vehicle folder]
-│
-├─ pyprojectd/
-│  ├─ exp1.py
-│  ├─ exp2_case_study1.py
-│  └─ exp2_case_study2.py
-│
-├─ [projectd-core source files]
-└─ [modified model-side source files]
-```
-
-The repository-side files are organized as:
-
-```text
-AC/
-├─ acti/
-├─ code/
-└─ unbound/
-
-Model/
-├─ bin/
-└─ code/
-
-Section 4 Data/
-Section 5 Case Studty2 Data/
-
-README.md
-LICENSE
-```
-
----
-
-## 12. Notes
-
-- The project was developed and tested under a Windows environment.
-- Visual Studio 2019 is recommended for building the model source code.
-- The modified model-side files must be copied into the correct locations before rebuilding.
-- The project must be rebuilt after replacing the model-side C++ files.
-- Required track and vehicle files are not included in this repository and should be obtained from legal sources.
-- Python version compatibility should be checked carefully, especially for `PyProjectD.pyd`.
-- The ACTI and unbound plugin files should be backed up before replacement.
-- The AC-side Python script should be started before the corresponding model-side Python script.
-- The provided scripts and data are intended to reproduce the experimental platform and case studies described in the associated research work.
-- The included data folders are provided for result verification and should be kept with their corresponding manuscript sections.
-
----
-
-## 13. License and Usage
-
-Please refer to the `LICENSE` file for the terms of use.
-
-This repository is intended for educational and academic research use. Users must also comply with the license terms of:
-
-- `projectd-core`;
-- Assetto Corsa;
-- ACTI;
-- unbound;
-- any third-party plugins, libraries, vehicle files, track files, or game resources used with this platform.
-
-Third-party assets and plugins remain the property of their respective owners and are not redistributed as part of this repository.
+Human data are provided as run-level summaries with anonymous participant IDs. The author confirmed authorization to share anonymous data; raw workbooks and original filenames are not included. See [human data](chapters/05_case3_human/README.md).

@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "not installed; optional for tested paths",
+    "openpyxl": "3.1.5",
+    "matplotlib": "not installed; optional for tested paths",
+    "Pillow": "12.3.0",
+    "reportlab": "4.4.9"
+  },
+  "scope": "offline processing; real-time simulator not tested"
+}
