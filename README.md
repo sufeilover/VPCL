@@ -1,7 +1,3 @@
-# HUIYU_PAPER
-
-Code and processed research data for **A Virtual-Physical Closed-Loop Platform for Prediction-Informed Driving Assistance**.
-
 This local release candidate organizes the platform and paper evidence by chapter and case study. The platform connects ongoing Assetto Corsa (AC) execution to telemetry-based initialization of a separate ProjectD-Core model and to prediction-informed application feedback.
 
 ## Start here
