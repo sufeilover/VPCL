@@ -1391,9 +1391,9 @@ function script.windowMain(dt) --UI主函数
 
       local frm = lastFrames2[idx]
       if frm then
-        controls.gas   = 0.5 * (frm.gas   + baseGas2)
-        controls.brake = 0.5 * (frm.brake + baseBrake2)
-        controls.steer = 0.5 * (frm.steer + baseSteer2)
+        controls.gas   = frm.gas
+        controls.brake = frm.brake
+        controls.steer = frm.steer
       end
 
       override2Index = override2Index + 1
